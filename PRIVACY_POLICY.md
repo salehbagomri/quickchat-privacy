@@ -2,7 +2,7 @@
 
 **تطبيق بنك دم المهرة - Mahrah Blood Bank App**
 
-**آخر تحديث: 6 مارس 2025 - Last Updated: March 6, 2025**
+**آخر تحديث: 20 أبريل 2026 - Last Updated: April 20, 2026**
 
 **🔗 رابط السياسة: https://salehbagomri.github.io/mahrah-blood-bank-privacy/**
 
@@ -320,11 +320,11 @@ You can withdraw consent at any time by requesting data deletion.
 ---
 
 **Version**: 1.2
-**Effective Date**: March 6, 2025
-**App Version**: 1.0.1
+**Effective Date**: April 20, 2026
+**App Version**: 1.0.3
 
 ---
 
-بنك دم المهرة 2025 © - جميع الحقوق محفوظة
+بنك دم المهرة 2026 © - جميع الحقوق محفوظة
 
 💙 **صُنع بحب لأهالي المهرة - Made with love for the people of Mahrah**

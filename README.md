@@ -70,9 +70,9 @@ We are committed to protecting your privacy and personal data:
 
 ### 📅 آخر تحديث - Last Updated
 
-**6 مارس 2025 - March 6, 2025**
+**20 أبريل 2026 - April 20, 2026**
 
-**إصدار التطبيق - App Version**: 1.0.1
+**إصدار التطبيق - App Version**: 1.0.3
 
 ---
 
@@ -117,4 +117,4 @@ This repository is dedicated solely to hosting the privacy policy for Mahrah Blo
 
 ---
 
-**بنك دم المهرة 2025 © - جميع الحقوق محفوظة - All Rights Reserved**
+**بنك دم المهرة 2026 © - جميع الحقوق محفوظة - All Rights Reserved**
