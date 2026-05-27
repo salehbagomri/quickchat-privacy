@@ -1,7 +1,7 @@
 # 📄 سياسة الخصوصية - Privacy Policy
 
-## تطبيق بنك دم المهرة
-## Mahrah Blood Bank App
+## تطبيق بنك دم اليمن
+## Yemen Blood Bank App
 
 ---
 
@@ -10,15 +10,15 @@
 
 👉 [اضغط هنا لقراءة سياسة الخصوصية كاملة - Click here to read the full privacy policy](PRIVACY_POLICY.md)
 
-🌐 [عرض السياسة على الويب - View on Web](https://salehbagomri.github.io/mahrah-blood-bank-privacy/)
+🌐 [عرض السياسة على الويب - View on Web](https://salehbagomri.github.io/yemen-blood-bank-privacy/)
 
 ---
 
 ### 📱 عن التطبيق - About the App
 
-**بنك دم المهرة** هو تطبيق مجاني يهدف إلى ربط المتبرعين بالدم مع المحتاجين في محافظة المهرة، اليمن.
+**بنك دم اليمن** هو تطبيق مجاني يهدف إلى ربط المتبرعين بالدم مع المحتاجين في اليمن.
 
-**Mahrah Blood Bank** is a free app that aims to connect blood donors with recipients in Mahrah Governorate, Yemen.
+**Yemen Blood Bank** is a free app that aims to connect blood donors with recipients in Yemen.
 
 ---
 
@@ -105,16 +105,16 @@ This policy complies with:
 
 ### 📝 الترخيص - License
 
-هذا المستودع مخصص فقط لاستضافة سياسة الخصوصية لتطبيق بنك دم المهرة.
+هذا المستودع مخصص فقط لاستضافة سياسة الخصوصية لتطبيق بنك دم اليمن.
 
-This repository is dedicated solely to hosting the privacy policy for Mahrah Blood Bank App.
-
----
-
-💙 **صُنع بحب لأهالي المهرة**
-
-💙 **Made with love for the people of Mahrah**
+This repository is dedicated solely to hosting the privacy policy for Yemen Blood Bank App.
 
 ---
 
-**بنك دم المهرة 2026 © - جميع الحقوق محفوظة - All Rights Reserved**
+💙 **صُنع بحب لأهالي اليمن**
+
+💙 **Made with love for the people of Yemen**
+
+---
+
+**بنك دم اليمن 2026 © - جميع الحقوق محفوظة - All Rights Reserved**
