@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="شروط الاستخدام لتطبيق بنك دم اليمن - Terms of Use for Yemen Blood Bank App">
+    <meta name="keywords" content="شروط الاستخدام, بنك دم اليمن, Terms of Use, Yemen Blood Bank">
+    <meta name="author" content="صالح باقمري">
+    <title>شروط الاستخدام - بنك دم اليمن | Terms of Use - Yemen Blood Bank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #C62828;
+            --primary-dark: #8E0000;
+            --primary-light: #FF5F52;
+            --bg-gradient-1: #C62828;
+            --bg-gradient-2: #8E0000;
+            --accent: #E53935;
+            --text-primary: #1a1a2e;
+            --text-secondary: #6c757d;
+            --bg-light: #FFF5F5;
+            --success: #2E7D32;
+            --warning: #F57F17;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+            line-height: 1.8;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 100%);
+            padding: 20px;
+            direction: rtl;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--white);
+            border-radius: 24px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.35);
+            overflow: hidden;
+        }
+
+        /* ─── Header ──────────────────────────────────── */
+        .header {
+            background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 100%);
+            color: var(--white);
+            padding: 48px 30px 36px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .header-logo {
+            font-size: 3.2em;
+            margin-bottom: 6px;
+        }
+
+        .header h1 {
+            font-size: 2.4em;
+            margin-bottom: 6px;
+            font-weight: 800;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.92;
+            font-weight: 600;
+        }
+
+        .header .date-badge {
+            display: inline-block;
+            margin-top: 14px;
+            padding: 6px 20px;
+            background: rgba(255, 255, 255, 0.18);
+            border-radius: 20px;
+            font-size: 0.88em;
+            backdrop-filter: blur(4px);
+        }
+
+        /* ─── Language Toggle ─────────────────────────── */
+        .language-toggle {
+            margin: 20px 0 4px;
+            text-align: center;
+        }
+
+        .language-toggle button {
+            background: rgba(255, 255, 255, 0.18);
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.35);
+            padding: 10px 30px;
+            margin: 0 6px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 700;
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .language-toggle button:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.32);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .language-toggle button.active {
+            background: var(--white);
+            color: var(--primary);
+            border-color: var(--white);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+        }
+
+        /* ─── Content ─────────────────────────────────── */
+        .content {
+            padding: 40px 32px;
+        }
+
+        .section {
+            margin-bottom: 36px;
+        }
+
+        .section h2 {
+            color: var(--primary);
+            font-size: 1.65em;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary);
+            font-weight: 800;
+        }
+
+        .section h3 {
+            color: var(--primary-dark);
+            font-size: 1.25em;
+            margin: 18px 0 10px;
+            font-weight: 700;
+        }
+
+        .section p {
+            margin-bottom: 14px;
+            text-align: justify;
+            color: #444;
+        }
+
+        .section ul {
+            list-style: none;
+            padding-right: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+            padding-right: 28px;
+            position: relative;
+            color: #444;
+        }
+
+        .section ul li:before {
+            content: "✓";
+            position: absolute;
+            right: 0;
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.15em;
+        }
+
+        /* ─── Boxes ───────────────────────────────────── */
+        .highlight-box {
+            background: var(--bg-light);
+            border-right: 4px solid var(--primary);
+            padding: 20px;
+            margin: 18px 0;
+            border-radius: 10px;
+        }
+
+        .warning-box {
+            background: #FFF8E1;
+            border-right: 4px solid var(--warning);
+            padding: 20px;
+            margin: 18px 0;
+            border-radius: 10px;
+        }
+
+        .success-box {
+            background: #E8F5E9;
+            border-right: 4px solid var(--success);
+            padding: 20px;
+            margin: 18px 0;
+            border-radius: 10px;
+        }
+
+        .disclaimer-box {
+            background: #FFF3E0;
+            border-right: 4px solid #E65100;
+            padding: 20px;
+            margin: 18px 0;
+            border-radius: 10px;
+        }
+
+        /* ─── Contact Info ────────────────────────────── */
+        .contact-info {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 22px 24px;
+            border-radius: 14px;
+            margin: 18px 0;
+        }
+
+        .contact-info p {
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+            transition: border-color 0.2s;
+        }
+
+        .contact-info a:hover {
+            border-bottom-color: var(--white);
+        }
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #25D366;
+            color: var(--white) !important;
+            padding: 8px 20px;
+            border-radius: 25px;
+            text-decoration: none !important;
+            border: none !important;
+            font-weight: 700;
+            font-size: 0.95em;
+            margin-top: 6px;
+            transition: all 0.3s ease;
+            direction: ltr;
+        }
+
+        .whatsapp-btn:hover {
+            background: #1DA851;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+        }
+
+        .emoji {
+            font-size: 1.15em;
+        }
+
+        /* ─── Cross link ──────────────────────────────── */
+        .page-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 22px;
+            background: rgba(255, 255, 255, 0.16);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            border-radius: 22px;
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .page-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* ─── Footer ──────────────────────────────────── */
+        .footer {
+            background: linear-gradient(180deg, #f9fafb 0%, #f1f3f4 100%);
+            padding: 32px;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer p {
+            margin: 8px 0;
+            color: var(--text-secondary);
+            font-size: 0.92em;
+        }
+
+        .footer a {
+            color: var(--primary);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .footer .copyright {
+            margin-top: 16px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* ─── English Version ────────────────────────── */
+        .en {
+            direction: ltr;
+            text-align: left;
+            display: none;
+        }
+
+        .en .section ul {
+            padding-left: 20px;
+            padding-right: 0;
+        }
+
+        .en .section ul li {
+            padding-left: 28px;
+            padding-right: 0;
+        }
+
+        .en .section ul li:before {
+            left: 0;
+            right: auto;
+        }
+
+        .en .highlight-box,
+        .en .warning-box,
+        .en .success-box,
+        .en .disclaimer-box {
+            border-right: none;
+            border-left: 4px solid var(--primary);
+        }
+
+        .en .warning-box {
+            border-left-color: var(--warning);
+        }
+
+        .en .success-box {
+            border-left-color: var(--success);
+        }
+
+        .en .disclaimer-box {
+            border-left-color: #E65100;
+        }
+
+        /* ─── Responsive ─────────────────────────────── */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 32px 18px 28px;
+            }
+
+            .header h1 {
+                font-size: 1.7em;
+            }
+
+            .header-logo {
+                font-size: 2.4em;
+            }
+
+            .content {
+                padding: 24px 16px;
+            }
+
+            .section h2 {
+                font-size: 1.35em;
+            }
+
+            .language-toggle button {
+                padding: 8px 20px;
+                font-size: 0.85em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-logo">🩸</div>
+            <h1>بنك دم اليمن</h1>
+            <p class="subtitle">شروط الاستخدام - Terms of Use</p>
+            <span class="date-badge">آخر تحديث: 29 مايو 2026</span>
+
+            <div class="language-toggle">
+                <button id="btnArabic" class="active" onclick="showArabic()">🇾🇪 العربية</button>
+                <button id="btnEnglish" onclick="showEnglish()">🇬🇧 English</button>
+            </div>
+            <div>
+                <a href="index.html" class="page-link">📋 سياسة الخصوصية / Privacy Policy</a>
+            </div>
+        </div>
+
+        <!-- ═══════ Arabic Version ═══════ -->
+        <div class="content ar" id="arabicContent">
+            <div class="section">
+                <h2>📋 مقدمة</h2>
+                <p>مرحباً بك في تطبيق <strong>بنك دم اليمن</strong>. التطبيق خدمة <strong>مجانية غير ربحية</strong> تهدف
+                    إلى تسهيل التواصل بين المتبرعين بالدم والمحتاجين إليه في عموم محافظات اليمن. باستخدامك للتطبيق فإنك
+                    توافق على شروط الاستخدام التالية. إذا كنت لا توافق عليها، يُرجى التوقف عن استخدام التطبيق.</p>
+            </div>
+
+            <div class="section">
+                <h2>🎯 طبيعة الخدمة</h2>
+                <div class="highlight-box">
+                    <ul>
+                        <li>التطبيق <strong>أداة وساطة</strong> تربط المتبرع بالمحتاج، وليس جهة طبية ولا بنك دم رسمياً.</li>
+                        <li>الخدمة مجانية بالكامل ولا توجد أي رسوم أو مدفوعات أو إعلانات.</li>
+                        <li>لا يضمن التطبيق توفّر متبرع مناسب ولا استجابته ولا صلاحيته الطبية للتبرع.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>👤 الحسابات والتسجيل</h2>
+                <ul>
+                    <li><strong>المستخدم العادي:</strong> لا يحتاج إلى حساب أو كلمة مرور للبحث عن متبرع أو لإضافة متبرع.</li>
+                    <li><strong>المستشفيات والمسؤولون:</strong> تُنشأ لهم حسابات خاصة، وهم مسؤولون عن سرية بيانات الدخول
+                        وكل نشاط يتم عبر حساباتهم.</li>
+                    <li>يحق لإدارة التطبيق إيقاف أو حذف أي حساب يخالف هذه الشروط.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>✅ مسؤوليات المتبرع</h2>
+                <ul>
+                    <li>تقديم بيانات صحيحة (الاسم، رقم الهاتف، فصيلة الدم، المحافظة/المديرية، العمر).</li>
+                    <li>أن يكون عمرك 18 سنة فأكثر، وأن تكون مؤهلاً صحياً للتبرع.</li>
+                    <li>تتحمل وحدك مسؤولية الموافقة على عرض رقم هاتفك للباحثين عن المتبرعين المتاحين.</li>
+                    <li>يمكنك طلب حذف بياناتك في أي وقت عبر وسائل التواصل أدناه.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🩸 مسؤوليات طالب الدم</h2>
+                <ul>
+                    <li>استخدام أرقام المتبرعين <strong>لغرض التبرع بالدم فقط</strong>.</li>
+                    <li>التحقق الطبي من فصيلة الدم وصلاحية التبرع عبر الجهة الصحية المختصة قبل أي نقل دم.</li>
+                    <li>احترام خصوصية المتبرع وعدم إزعاجه أو إساءة استخدام بياناته.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🚫 الاستخدام المحظور</h2>
+                <div class="warning-box">
+                    <ul>
+                        <li>إدخال بيانات وهمية أو تسجيل متبرعين دون علمهم وموافقتهم.</li>
+                        <li>جمع أرقام هواتف المتبرعين أو استخدامها لأغراض تجارية أو دعائية أو غير التبرع.</li>
+                        <li>إرسال رسائل مزعجة (Spam) أو التحرّش أو الإساءة لأي مستخدم.</li>
+                        <li>محاولة اختراق النظام أو الوصول غير المصرّح به لقاعدة البيانات (Supabase).</li>
+                        <li>استخدام التطبيق في أي نشاط مخالف للقانون.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>⚠️ إخلاء المسؤولية الطبية</h2>
+                <div class="disclaimer-box">
+                    <p>التطبيق وسيلة مساعدة لتسهيل التواصل فقط، ولا يُغني عن الفحص والاستشارة الطبية المتخصصة. لا تتحمل
+                        إدارة التطبيق أي مسؤولية عن دقة بيانات المتبرعين، أو نتائج التبرع/نقل الدم، أو أي ضرر مباشر أو غير
+                        مباشر ناتج عن استخدام التطبيق. تقع المسؤولية الطبية الكاملة على الجهات الصحية المختصة.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>©️ الملكية الفكرية</h2>
+                <p>جميع العلامات والشعارات والتصميمات والأكواد البرمجية في تطبيق بنك دم اليمن ملك للمطوّر، ولا يجوز
+                    نسخها أو إعادة إنتاجها دون إذن خطي مسبق.</p>
+            </div>
+
+            <div class="section">
+                <h2>🔄 التعديل والإنهاء</h2>
+                <ul>
+                    <li>نحتفظ بالحق في تحديث هذه الشروط في أي وقت، واستمرارك في الاستخدام يُعدّ موافقة على التعديلات.</li>
+                    <li>يحق للإدارة إيقاف الخدمة أو أي حساب يخالف الشروط دون إشعار مسبق.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>⚖️ القانون المطبّق وحل النزاعات</h2>
+                <p>تخضع هذه الشروط للقوانين النافذة في الجمهورية اليمنية، وتُحلّ النزاعات ودياً، وفي حال تعذّر ذلك
+                    تختص المحاكم المختصة في محافظة حضرموت بالنظر فيها.</p>
+            </div>
+
+            <div class="section">
+                <h2>📞 التواصل معنا</h2>
+                <div class="contact-info">
+                    <p><strong>تطوير وتصميم:</strong> صالح باقمري</p>
+                    <p><strong>البريد الإلكتروني:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
+                    <p><strong>الموقع:</strong> <a href="https://www.bagomri.com">www.bagomri.com</a></p>
+                    <p><strong>العنوان:</strong> حضرموت، اليمن</p>
+                    <p>
+                        <a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">
+                            💬 تواصل عبر واتساب: +967 770 727 055
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>✅ موافقتك</h2>
+                <div class="highlight-box">
+                    <p>باستخدامك تطبيق بنك دم اليمن فإنك تقرّ بأنك قرأت شروط الاستخدام هذه ووافقت عليها، وعلى
+                        <a href="index.html" style="color:var(--primary);font-weight:700;">سياسة الخصوصية</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══════ English Version ═══════ -->
+        <div class="content en" id="englishContent">
+            <div class="section">
+                <h2>📋 Introduction</h2>
+                <p>Welcome to <strong>Yemen Blood Bank</strong>. The app is a <strong>free, non-profit</strong> service
+                    that facilitates connecting blood donors with people in need across all governorates of Yemen. By
+                    using the app you agree to these Terms of Use. If you do not agree, please stop using the app.</p>
+            </div>
+
+            <div class="section">
+                <h2>🎯 Nature of the Service</h2>
+                <div class="highlight-box">
+                    <ul>
+                        <li>The app is a <strong>connection tool</strong> linking donors and recipients; it is not a
+                            medical entity nor an official blood bank.</li>
+                        <li>The service is entirely free — no fees, payments, or advertisements.</li>
+                        <li>The app does not guarantee the availability, response, or medical eligibility of any donor.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>👤 Accounts & Registration</h2>
+                <ul>
+                    <li><strong>Regular users:</strong> No account or password is needed to search for or add a donor.</li>
+                    <li><strong>Hospitals & Admins:</strong> Have dedicated accounts and are responsible for their
+                        credentials and all activity under their accounts.</li>
+                    <li>The administration may suspend or delete any account that violates these terms.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>✅ Donor Responsibilities</h2>
+                <ul>
+                    <li>Provide accurate data (name, phone, blood type, governorate/district, age).</li>
+                    <li>Be 18 years or older and medically eligible to donate.</li>
+                    <li>You alone are responsible for consenting to display your phone number to those searching for
+                        available donors.</li>
+                    <li>You may request deletion of your data at any time via the contacts below.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🩸 Recipient Responsibilities</h2>
+                <ul>
+                    <li>Use donor phone numbers <strong>for blood donation purposes only</strong>.</li>
+                    <li>Medically verify blood type and donation eligibility through qualified health authorities before
+                        any transfusion.</li>
+                    <li>Respect donor privacy and do not harass or misuse their data.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🚫 Prohibited Use</h2>
+                <div class="warning-box">
+                    <ul>
+                        <li>Entering fake data or registering donors without their knowledge and consent.</li>
+                        <li>Harvesting donor phone numbers or using them for commercial, promotional, or non-donation
+                            purposes.</li>
+                        <li>Sending spam, harassment, or abuse to any user.</li>
+                        <li>Attempting to breach the system or gain unauthorized access to the database (Supabase).</li>
+                        <li>Using the app for any unlawful activity.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>⚠️ Medical Disclaimer</h2>
+                <div class="disclaimer-box">
+                    <p>The app is only a tool to facilitate communication and does not replace professional medical
+                        examination and advice. The administration bears no responsibility for the accuracy of donor
+                        data, the outcomes of donation/transfusion, or any direct or indirect harm arising from using
+                        the app. Full medical responsibility lies with the competent health authorities.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>©️ Intellectual Property</h2>
+                <p>All marks, logos, designs, and source code in Yemen Blood Bank belong to the developer and may not be
+                    copied or reproduced without prior written permission.</p>
+            </div>
+
+            <div class="section">
+                <h2>🔄 Modifications & Termination</h2>
+                <ul>
+                    <li>We reserve the right to update these terms at any time; continued use implies acceptance.</li>
+                    <li>The administration may suspend the service or any violating account without prior notice.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>⚖️ Governing Law & Disputes</h2>
+                <p>These terms are governed by the laws of the Republic of Yemen. Disputes shall be resolved amicably;
+                    failing that, the competent courts in Hadhramout, Yemen shall have jurisdiction.</p>
+            </div>
+
+            <div class="section">
+                <h2>📞 Contact Us</h2>
+                <div class="contact-info">
+                    <p><strong>Developer:</strong> Saleh Bagomri</p>
+                    <p><strong>Email:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
+                    <p><strong>Website:</strong> <a href="https://www.bagomri.com">www.bagomri.com</a></p>
+                    <p><strong>Address:</strong> Hadhramout, Yemen</p>
+                    <p>
+                        <a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">
+                            💬 WhatsApp: +967 770 727 055
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>✅ Your Consent</h2>
+                <div class="highlight-box">
+                    <p>By using Yemen Blood Bank, you acknowledge that you have read and agreed to these Terms of Use and
+                        to the
+                        <a href="index.html" style="color:var(--primary);font-weight:700;">Privacy Policy</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>📱 إصدار التطبيق - App Version: 1.0.0</strong></p>
+            <p>آخر تحديث - Last Updated: 29 مايو 2026 - May 29, 2026</p>
+            <p><a href="index.html">📋 سياسة الخصوصية - Privacy Policy</a></p>
+            <p>💙 صُنع بحب لأهالي اليمن - Made with love for the people of Yemen</p>
+            <p class="copyright">بنك دم اليمن 2026 © - جميع الحقوق محفوظة - All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script>
+        function showArabic() {
+            document.getElementById('arabicContent').style.display = 'block';
+            document.getElementById('englishContent').style.display = 'none';
+            document.getElementById('btnArabic').classList.add('active');
+            document.getElementById('btnEnglish').classList.remove('active');
+            document.body.setAttribute('dir', 'rtl');
+        }
+
+        function showEnglish() {
+            document.getElementById('arabicContent').style.display = 'none';
+            document.getElementById('englishContent').style.display = 'block';
+            document.getElementById('btnArabic').classList.remove('active');
+            document.getElementById('btnEnglish').classList.add('active');
+            document.body.setAttribute('dir', 'ltr');
+        }
+
+        // Default to Arabic
+        showArabic();
+    </script>
+</body>
+
+</html>
