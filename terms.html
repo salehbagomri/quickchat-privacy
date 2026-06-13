@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="شروط الاستخدام لتطبيق بنك دم اليمن - Terms of Use for Yemen Blood Bank App">
+    <meta name="description" content="شروط الاستخدام لتطبيق كويك شات - Terms of Use for QuickChat App">
     <meta name="author" content="Saleh Bagomri">
-    <title>شروط الاستخدام - بنك دم اليمن | Terms of Use - Yemen Blood Bank</title>
+    <title>شروط الاستخدام - كويك شات | Terms of Use - QuickChat</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #0f172a;
-            --secondary-color: #475569;
-            --accent-color: #2563eb;
+            --primary-color: #075E54;
+            --secondary-color: #54656f;
+            --accent-color: #128C7E;
+            --accent-hover: #075E54;
             --border-color: #e2e8f0;
-            --bg-color: #f8fafc;
+            --bg-color: #f4f7f6;
             --surface-color: #ffffff;
-            --text-color: #334155;
+            --text-color: #111b21;
             --sidebar-width: 240px;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -42,7 +43,7 @@
         .header-title p { font-size: 14px; color: var(--secondary-color); }
         .language-toggle {
             display: inline-flex;
-            background: #f1f5f9;
+            background: #e9ebea;
             border: 1px solid var(--border-color);
             border-radius: 6px;
             padding: 3px;
@@ -112,7 +113,7 @@
             padding-right: 18px;
         }
         [dir="ltr"] .section ul li { padding-right: 0; padding-left: 18px; }
-        .section ul li::before { content: "•"; color: var(--secondary-color); position: absolute; right: 0; top: 0; font-weight: bold; }
+        .section ul li::before { content: "•"; color: var(--accent-color); position: absolute; right: 0; top: 0; font-weight: bold; }
         [dir="ltr"] .section ul li::before { right: auto; left: 0; }
         .section ul li strong { color: var(--primary-color); }
         .callout-box { background: #fafafa; border: 1px solid var(--border-color); border-radius: 8px; padding: 24px; margin: 24px 0; }
@@ -169,14 +170,14 @@
     <div class="layout-wrapper">
         <div class="header">
             <div class="header-title" id="arabicHeaderTitle">
-                <h1>بنك دم اليمن</h1>
-                <p>تطبيق التبرع بالدم — شروط الاستخدام</p>
-                <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">آخر تحديث: مايو 2026</p>
+                <h1>كويك شات</h1>
+                <p>تطبيق المراسلة المباشرة لواتساب — شروط الاستخدام</p>
+                <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">آخر تحديث: يونيو 2026</p>
             </div>
             <div class="header-title en" id="englishHeaderTitle">
-                <h1>Yemen Blood Bank</h1>
-                <p>Blood Donation App — Terms of Use</p>
-                <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">Last Updated: May 2026</p>
+                <h1>QuickChat</h1>
+                <p>Direct WhatsApp Messenger — Terms of Use</p>
+                <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">Last Updated: June 2026</p>
             </div>
             <div class="language-toggle">
                 <button id="btnArabic" class="active" onclick="showArabic()">العربية</button>
@@ -190,10 +191,9 @@
                     <a href="#ar-intro" class="active">المقدمة</a>
                     <a href="#ar-nature">طبيعة الخدمة</a>
                     <a href="#ar-accounts">الحسابات والتسجيل</a>
-                    <a href="#ar-donor">مسؤوليات المتبرع</a>
-                    <a href="#ar-recipient">مسؤوليات طالب الدم</a>
+                    <a href="#ar-user-resp">مسؤوليات المستخدم</a>
                     <a href="#ar-prohibited">الاستخدام المحظور</a>
-                    <a href="#ar-disclaimer">إخلاء المسؤولية الطبية</a>
+                    <a href="#ar-disclaimer">إخلاء المسؤولية</a>
                     <a href="#ar-ip">الملكية الفكرية</a>
                     <a href="#ar-changes">التعديل والإنهاء</a>
                     <a href="#ar-law">القانون المطبق</a>
@@ -206,10 +206,9 @@
                     <a href="#en-intro">Introduction</a>
                     <a href="#en-nature">Nature of Service</a>
                     <a href="#en-accounts">Accounts & Registration</a>
-                    <a href="#en-donor">Donor Responsibilities</a>
-                    <a href="#en-recipient">Recipient Responsibilities</a>
+                    <a href="#en-user-resp">User Responsibilities</a>
                     <a href="#en-prohibited">Prohibited Use</a>
-                    <a href="#en-disclaimer">Medical Disclaimer</a>
+                    <a href="#en-disclaimer">Disclaimer</a>
                     <a href="#en-ip">Intellectual Property</a>
                     <a href="#en-changes">Modifications & Termination</a>
                     <a href="#en-law">Governing Law</a>
@@ -222,43 +221,28 @@
                 <div class="content ar" id="arabicContent">
                     <div class="section" id="ar-intro">
                         <h2>المقدمة</h2>
-                        <p>مرحباً بك في تطبيق بنك دم اليمن. التطبيق خدمة مجانية غير ربحية تهدف إلى تسهيل التواصل بين المتبرعين بالدم والمحتاجين إليه في عموم محافظات اليمن. باستخدامك للتطبيق فإنك توافق على شروط الاستخدام التالية؛ وإذا كنت لا توافق عليها، يُرجى التوقف عن استخدام التطبيق.</p>
+                        <p>مرحباً بك في تطبيق كويك شات (QuickChat). باستخدامك أو تحميلك لهذا التطبيق، فإنك توافق على الالتزام بشروط الاستخدام المذكورة هنا بالكامل. إذا كنت لا توافق على أي من هذه الشروط، يرجى التوقف فوراً عن استخدام الخدمة وإلغاء تثبيت التطبيق.</p>
                     </div>
 
                     <div class="section" id="ar-nature">
                         <h2>طبيعة الخدمة</h2>
                         <ul>
-                            <li>التطبيق <strong>أداة وساطة</strong> تربط المتبرع بالمحتاج، وليس جهة طبية ولا بنك دم رسمياً.</li>
-                            <li>الخدمة مجانية بالكامل، ولا توجد أي رسوم أو مدفوعات أو إعلانات.</li>
-                            <li>لا يضمن التطبيق توفّر متبرع مناسب ولا استجابته ولا صلاحيته الطبية للتبرع.</li>
+                            <li>التطبيق هو <strong>أداة مساعدة تسهيلية</strong> تتيح للمستخدمين فتح دردشة واتساب مباشرة بإنشاء روابط wa.me للرقم المدخل، وهو ليس تطبيق مراسلة مستقل بذاته.</li>
+                            <li>التطبيق مجاني بالكامل، ولا يعرض أي إعلانات ولا يتطلب أي اشتراكات أو مدفوعات داخل التطبيق.</li>
+                            <li>لا يضمن التطبيق توافر الرقم المدخل على تطبيق واتساب ولا دقة الأرقام التي يدخلها المستخدم.</li>
                         </ul>
                     </div>
 
                     <div class="section" id="ar-accounts">
                         <h2>الحسابات والتسجيل</h2>
-                        <ul>
-                            <li><strong>المستخدم العادي:</strong> لا يحتاج إلى حساب أو كلمة مرور للبحث عن متبرع أو لإضافة متبرع.</li>
-                            <li><strong>المستشفيات والمسؤولون:</strong> تُنشأ لهم حسابات خاصة، وهم مسؤولون عن سرية بيانات الدخول وكل نشاط يتم عبر حساباتهم.</li>
-                            <li>يحق لإدارة التطبيق إيقاف أو حذف أي حساب يخالف هذه الشروط.</li>
-                        </ul>
+                        <p>لا يتطلب استخدام تطبيق كويك شات إنشاء حساب أو تسجيل دخول أو تقديم أي بيانات اعتماد أو بريد إلكتروني. تظل جميع البيانات وتفضيلات المستخدم محفوظة على هاتفك الشخصي فقط.</p>
                     </div>
 
-                    <div class="section" id="ar-donor">
-                        <h2>مسؤوليات المتبرع</h2>
+                    <div class="section" id="ar-user-resp">
+                        <h2>مسؤوليات المستخدم</h2>
                         <ul>
-                            <li>تقديم بيانات صحيحة (الاسم، رقم الهاتف، فصيلة الدم، المحافظة والمديرية، العمر).</li>
-                            <li>أن يكون عمرك 18 سنة فأكثر، وأن تكون مؤهلاً صحياً للتبرع.</li>
-                            <li>تتحمل وحدك مسؤولية الموافقة على عرض رقم هاتفك للباحثين عن المتبرعين المتاحين.</li>
-                            <li>يمكنك طلب حذف بياناتك في أي وقت عبر وسائل التواصل أدناه.</li>
-                        </ul>
-                    </div>
-
-                    <div class="section" id="ar-recipient">
-                        <h2>مسؤوليات طالب الدم</h2>
-                        <ul>
-                            <li>استخدام أرقام المتبرعين <strong>لغرض التبرع بالدم فقط</strong>.</li>
-                            <li>التحقق الطبي من فصيلة الدم وصلاحية التبرع عبر الجهة الصحية المختصة قبل أي نقل دم.</li>
-                            <li>احترام خصوصية المتبرع وعدم إزعاجه أو إساءة استخدام بياناته.</li>
+                            <li>يتحمل المستخدم وحده كامل المسؤولية عن صحة الأرقام التي يقوم بإدخالها والرسائل التي يقوم بإرسالها عبر تطبيق واتساب.</li>
+                            <li>تلتزم باستخدام التطبيق بشكل قانوني ووفقاً لسياسات استخدام تطبيق واتساب (WhatsApp) الرسمي.</li>
                         </ul>
                     </div>
 
@@ -266,60 +250,47 @@
                         <h2>الاستخدام المحظور</h2>
                         <div class="callout-box">
                             <ul>
-                                <li>إدخال بيانات وهمية أو تسجيل متبرعين دون علمهم وموافقتهم.</li>
-                                <li>جمع أرقام هواتف المتبرعين أو استخدامها لأغراض تجارية أو دعائية أو غير التبرع.</li>
-                                <li>إرسال رسائل مزعجة أو التحرّش أو الإساءة لأي مستخدم.</li>
-                                <li>محاولة اختراق النظام أو الوصول غير المصرّح به لقاعدة البيانات (Supabase).</li>
-                                <li>استخدام التطبيق في أي نشاط مخالف للقانون.</li>
+                                <li>استخدام التطبيق لإرسال رسائل مزعجة (Spam) أو إعلانات غير مرغوب فيها لأشخاص دون رضاهم.</li>
+                                <li>محاولة هندسة عكسية للتطبيق أو التلاعب بأكواد البرمجيات أو إتلاف الملفات المحلية.</li>
+                                <li>استخدام التطبيق لأي أغراض تخالف القوانين المحلية أو الدولية المعمول بها.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="section" id="ar-disclaimer">
-                        <h2>إخلاء المسؤولية الطبية</h2>
+                        <h2>إخلاء المسؤولية والتبعية</h2>
                         <div class="callout-box">
-                            <p>التطبيق وسيلة مساعدة لتسهيل التواصل فقط، ولا يُغني عن الفحص والاستشارة الطبية المتخصصة. لا تتحمل إدارة التطبيق أي مسؤولية عن دقة بيانات المتبرعين، أو نتائج التبرع ونقل الدم، أو أي ضرر مباشر أو غير مباشر ناتج عن استخدام التطبيق. تقع المسؤولية الطبية الكاملة على الجهات الصحية المختصة.</p>
+                            <p>يتم تقديم تطبيق كويك شات "كما هو" دون أي ضمانات من أي نوع، صريحة أو ضمنية. لا يتحمل المطور أي مسؤولية عن أي أضرار مباشرة أو غير مباشرة أو أي فقدان للبيانات ينتج عن استخدامك للتطبيق.</p>
+                            <p><strong>توضيح التبعية:</strong> كويك شات هو تطبيق مستقل تماماً ومطور بشكل مستقل. لا توجد أي علاقة تبعية، أو شراكة، أو رعاية رسمية تجمع بين كويك شات وشركة <strong>WhatsApp LLC</strong> أو شركة <strong>Meta Platforms, Inc.</strong> أو أي من الشركات التابعة لها.</p>
                         </div>
                     </div>
 
                     <div class="section" id="ar-ip">
                         <h2>الملكية الفكرية</h2>
-                        <p>جميع العلامات والشعارات والتصميمات والأكواد البرمجية في تطبيق بنك دم اليمن ملك للمطوّر، ولا يجوز نسخها أو إعادة إنتاجها دون إذن خطي مسبق.</p>
+                        <p>جميع حقوق الملكية الفكرية الخاصة بالتطبيق (بما في ذلك الأكواد البرمجية والتصميمات والشعارات الحصرية للتطبيق) هي ملك للمطور صالح باقمري، ولا يجوز إعادة استخدامها أو نسخها دون إذن مسبق.</p>
                     </div>
 
                     <div class="section" id="ar-changes">
                         <h2>التعديل والإنهاء</h2>
-                        <ul>
-                            <li>نحتفظ بالحق في تحديث هذه الشروط في أي وقت، واستمرارك في الاستخدام يُعدّ موافقة على التعديلات.</li>
-                            <li>يحق للإدارة إيقاف الخدمة أو أي حساب يخالف الشروط دون إشعار مسبق.</li>
-                        </ul>
+                        <p>نحتفظ بالحق في تعديل أو تحديث شروط الاستخدام هذه في أي وقت. يعتبر استمرارك في استخدام التطبيق بعد نشر التحديثات بمثابة موافقة منك على الشروط المعدلة.</p>
                     </div>
 
                     <div class="section" id="ar-law">
                         <h2>القانون المطبق وحل النزاعات</h2>
-                        <p>تخضع هذه الشروط للقوانين النافذة في الجمهورية اليمنية، وتُحلّ النزاعات ودياً، وفي حال تعذّر ذلك تختص المحاكم المختصة في محافظة حضرموت بالنظر فيها.</p>
-                        <p>باستخدامك التطبيق فإنك تقرّ بموافقتك أيضاً على <a href="index.html" style="color: var(--accent-color);">سياسة الخصوصية</a>.</p>
+                        <p>تخضع شروط الاستخدام هذه وتفسر وفقاً للقوانين السارية في الجمهورية اليمنية. وفي حال نشوء أي نزاع، فإنه يُحل ودياً؛ وفي حال تعذر ذلك، تختص المحاكم في محافظة حضرموت بالنظر فيه.</p>
                     </div>
 
                     <div class="section" id="ar-contact">
                         <h2>الاتصال بنا</h2>
-                        <p>لأي استفسار بخصوص شروط الاستخدام، يُرجى التواصل معنا عبر القنوات التالية:</p>
+                        <p>إذا كانت لديك أي استفسارات بخصوص شروط الاستخدام هذه، يمكنك التواصل معنا:</p>
                         <div class="contact-grid">
                             <div class="contact-item">
-                                <div class="contact-item-label">البريد الإلكتروني / الدعم الفني</div>
+                                <div class="contact-item-label">البريد الإلكتروني للمطور</div>
                                 <div class="contact-item-value"><a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></div>
                             </div>
                             <div class="contact-item">
-                                <div class="contact-item-label">الدعم عبر الواتساب</div>
-                                <div class="contact-item-value"><a href="https://wa.me/967770727055" dir="ltr">+967 770727055</a></div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-item-label">الموقع الإلكتروني</div>
-                                <div class="contact-item-value"><a href="https://www.bagomri.com" target="_blank">www.bagomri.com</a></div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-item-label">العنوان</div>
-                                <div class="contact-item-value">حضرموت، الجمهورية اليمنية</div>
+                                <div class="contact-item-label">حساب الإنستغرام</div>
+                                <div class="contact-item-value"><a href="https://instagram.com/salehbagomri" target="_blank">@salehbagomri</a></div>
                             </div>
                         </div>
                     </div>
@@ -329,43 +300,28 @@
                 <div class="content en" id="englishContent">
                     <div class="section" id="en-intro">
                         <h2>Introduction</h2>
-                        <p>Welcome to Yemen Blood Bank. The app is a free, non-profit service that facilitates connecting blood donors with those in need across all governorates of Yemen. By using the app you agree to the following Terms of Use; if you do not agree, please stop using the app.</p>
+                        <p>Welcome to QuickChat. By downloading or using this application, you agree to comply with and be bound by these Terms of Use. If you do not agree to any of these terms, please immediately stop using the app and uninstall it.</p>
                     </div>
 
                     <div class="section" id="en-nature">
-                        <h2>Nature of the Service</h2>
+                        <h2>Nature of Service</h2>
                         <ul>
-                            <li>The app is a <strong>connection tool</strong> linking donors and recipients; it is not a medical entity nor an official blood bank.</li>
-                            <li>The service is entirely free — no fees, payments, or advertisements.</li>
-                            <li>The app does not guarantee the availability, response, or medical eligibility of any donor.</li>
+                            <li>The app is a **utility helper tool** that allows users to start a WhatsApp chat directly by generating official wa.me links for the entered phone number. It is not an independent messaging application.</li>
+                            <li>The app is entirely free, displays no advertisements, and does not require any subscriptions or in-app purchases.</li>
+                            <li>We do not guarantee the availability of the entered phone number on WhatsApp nor the accuracy of the number provided.</li>
                         </ul>
                     </div>
 
                     <div class="section" id="en-accounts">
                         <h2>Accounts & Registration</h2>
-                        <ul>
-                            <li><strong>Regular users:</strong> No account or password is needed to search for or add a donor.</li>
-                            <li><strong>Hospitals & Admins:</strong> Have dedicated accounts and are responsible for their credentials and all activity under their accounts.</li>
-                            <li>The administration may suspend or delete any account that violates these terms.</li>
-                        </ul>
+                        <p>Using the QuickChat application does not require you to create an account, log in, or provide any credentials or email addresses. All user configurations and local data remain exclusively on your device.</p>
                     </div>
 
-                    <div class="section" id="en-donor">
-                        <h2>Donor Responsibilities</h2>
+                    <div class="section" id="en-user-resp">
+                        <h2>User Responsibilities</h2>
                         <ul>
-                            <li>Provide accurate data (name, phone, blood type, governorate and district, age).</li>
-                            <li>Be 18 years or older and medically eligible to donate.</li>
-                            <li>You alone are responsible for consenting to display your phone number to those searching for available donors.</li>
-                            <li>You may request deletion of your data at any time via the contacts below.</li>
-                        </ul>
-                    </div>
-
-                    <div class="section" id="en-recipient">
-                        <h2>Recipient Responsibilities</h2>
-                        <ul>
-                            <li>Use donor phone numbers <strong>for blood donation purposes only</strong>.</li>
-                            <li>Medically verify blood type and donation eligibility through qualified health authorities before any transfusion.</li>
-                            <li>Respect donor privacy and do not harass or misuse their data.</li>
+                            <li>You assume sole responsibility for the validity of the phone numbers you enter and the messages you send using the WhatsApp application.</li>
+                            <li>You agree to use this application lawfully and in accordance with the official WhatsApp Terms of Service.</li>
                         </ul>
                     </div>
 
@@ -373,60 +329,47 @@
                         <h2>Prohibited Use</h2>
                         <div class="callout-box">
                             <ul>
-                                <li>Entering fake data or registering donors without their knowledge and consent.</li>
-                                <li>Harvesting donor phone numbers or using them for commercial, promotional, or non-donation purposes.</li>
-                                <li>Sending spam, harassment, or abuse to any user.</li>
-                                <li>Attempting to breach the system or gain unauthorized access to the database (Supabase).</li>
-                                <li>Using the app for any unlawful activity.</li>
+                                <li>Using the app to distribute spam, mass messages, or unsolicited advertisements without recipients' consent.</li>
+                                <li>Attempting to reverse engineer the application, modify its source code, or tamper with its local files.</li>
+                                <li>Using the application for any purpose that violates local or international laws.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="section" id="en-disclaimer">
-                        <h2>Medical Disclaimer</h2>
+                        <h2>Disclaimer & Affiliation</h2>
                         <div class="callout-box">
-                            <p>The app is only a tool to facilitate communication and does not replace professional medical examination and advice. The administration bears no responsibility for the accuracy of donor data, the outcomes of donation and transfusion, or any direct or indirect harm arising from using the app. Full medical responsibility lies with the competent health authorities.</p>
+                            <p>QuickChat is provided "as is" without warranties of any kind, express or implied. The developer shall not be liable for any direct or indirect damages, or any loss of data resulting from the use of the app.</p>
+                            <p><strong>Affiliation Disclaimer:</strong> QuickChat is an independent tool and is developed independently. It is not affiliated with, associated with, sponsored by, or officially connected to <strong>WhatsApp LLC</strong>, <strong>Meta Platforms, Inc.</strong>, or any of their affiliates.</p>
                         </div>
                     </div>
 
                     <div class="section" id="en-ip">
                         <h2>Intellectual Property</h2>
-                        <p>All marks, logos, designs, and source code in Yemen Blood Bank belong to the developer and may not be copied or reproduced without prior written permission.</p>
+                        <p>All intellectual property rights associated with the app (including source code, designs, and exclusive branding assets) belong to the developer, Saleh Bagomri, and may not be reproduced without prior written consent.</p>
                     </div>
 
                     <div class="section" id="en-changes">
                         <h2>Modifications & Termination</h2>
-                        <ul>
-                            <li>We reserve the right to update these terms at any time; continued use implies acceptance.</li>
-                            <li>The administration may suspend the service or any violating account without prior notice.</li>
-                        </ul>
+                        <p>We reserve the right to modify or update these Terms of Use at any time. Your continued use of the application after updates are posted constitutes your acceptance of the revised terms.</p>
                     </div>
 
                     <div class="section" id="en-law">
                         <h2>Governing Law & Disputes</h2>
-                        <p>These terms are governed by the laws of the Republic of Yemen. Disputes shall be resolved amicably; failing that, the competent courts in Hadhramout, Yemen shall have jurisdiction.</p>
-                        <p>By using the app you also acknowledge your agreement to the <a href="index.html" style="color: var(--accent-color);">Privacy Policy</a>.</p>
+                        <p>These terms shall be governed by and construed in accordance with the laws of the Republic of Yemen. Any dispute arising from these terms shall be resolved amicably; failing that, the competent courts in Hadhramout, Yemen shall have exclusive jurisdiction.</p>
                     </div>
 
                     <div class="section" id="en-contact">
                         <h2>Contact Us</h2>
-                        <p>For any questions regarding these Terms of Use, please contact us via the channels below:</p>
+                        <p>If you have any questions regarding these Terms of Use, please feel free to reach out:</p>
                         <div class="contact-grid">
                             <div class="contact-item">
-                                <div class="contact-item-label">Email / Technical Support</div>
+                                <div class="contact-item-label">Developer Email</div>
                                 <div class="contact-item-value"><a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></div>
                             </div>
                             <div class="contact-item">
-                                <div class="contact-item-label">WhatsApp Support</div>
-                                <div class="contact-item-value"><a href="https://wa.me/967770727055" dir="ltr">+967 770727055</a></div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-item-label">Website</div>
-                                <div class="contact-item-value"><a href="https://www.bagomri.com" target="_blank">www.bagomri.com</a></div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-item-label">Address</div>
-                                <div class="contact-item-value">Hadhramout, Yemen</div>
+                                <div class="contact-item-label">Instagram Account</div>
+                                <div class="contact-item-value"><a href="https://instagram.com/salehbagomri" target="_blank">@salehbagomri</a></div>
                             </div>
                         </div>
                     </div>
@@ -436,17 +379,17 @@
 
         <div class="footer" id="arabicFooter">
             <p>إصدار التطبيق: 1.0.0</p>
-            <p>آخر تحديث: مايو 2026</p>
-            <p>بنك دم اليمن — تطبيق التبرع بالدم</p>
-            <p><a href="index.html">سياسة الخصوصية</a></p>
+            <p>آخر تحديث: يونيو 2026</p>
+            <p>كويك شات — تطبيق المراسلة المباشرة لواتساب</p>
+            <p><a href="index.html">سياسة الخصوصية</a> | <a href="delete-account.html">حذف البيانات</a></p>
             <p style="margin-top: 20px;">&copy; 2026 Saleh Bagomri - جميع الحقوق محفوظة</p>
         </div>
 
         <div class="footer en" id="englishFooter">
             <p>App Version: 1.0.0</p>
-            <p>Last Updated: May 2026</p>
-            <p>Yemen Blood Bank — Blood Donation App</p>
-            <p><a href="index.html">Privacy Policy</a></p>
+            <p>Last Updated: June 2026</p>
+            <p>QuickChat — Direct WhatsApp Messenger</p>
+            <p><a href="index.html">Privacy Policy</a> | <a href="delete-account.html">Data Deletion</a></p>
             <p style="margin-top: 20px;">&copy; 2026 Saleh Bagomri - All Rights Reserved</p>
         </div>
     </div>

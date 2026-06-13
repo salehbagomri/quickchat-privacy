@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="طلب حذف الحساب والبيانات لتطبيق بنك دم اليمن - Account and Data Deletion Request for Yemen Blood Bank App">
+    <meta name="description" content="طلب مسح البيانات الشخصية والخيارات لتطبيق كويك شات - Data Deletion for QuickChat App">
     <meta name="author" content="Saleh Bagomri">
-    <title>طلب حذف الحساب والبيانات - بنك دم اليمن | Data Deletion Request - Yemen Blood Bank</title>
+    <title>طلب حذف البيانات - كويك شات | Data Deletion Request - QuickChat</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #0f172a;
-            --secondary-color: #475569;
-            --accent-color: #2563eb;
+            --primary-color: #075E54;
+            --secondary-color: #54656f;
+            --accent-color: #128C7E;
+            --accent-hover: #075E54;
             --border-color: #e2e8f0;
-            --bg-color: #f8fafc;
+            --bg-color: #f4f7f6;
             --surface-color: #ffffff;
-            --text-color: #334155;
+            --text-color: #111b21;
             --sidebar-width: 240px;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -42,7 +43,7 @@
         .header-title p { font-size: 14px; color: var(--secondary-color); }
         .language-toggle {
             display: inline-flex;
-            background: #f1f5f9;
+            background: #e9ebea;
             border: 1px solid var(--border-color);
             border-radius: 6px;
             padding: 3px;
@@ -112,7 +113,7 @@
             padding-right: 18px;
         }
         [dir="ltr"] .section ul li { padding-right: 0; padding-left: 18px; }
-        .section ul li::before { content: "•"; color: var(--secondary-color); position: absolute; right: 0; top: 0; font-weight: bold; }
+        .section ul li::before { content: "•"; color: var(--accent-color); position: absolute; right: 0; top: 0; font-weight: bold; }
         [dir="ltr"] .section ul li::before { right: auto; left: 0; }
         .section ul li strong { color: var(--primary-color); }
         .callout-box { background: #fafafa; border: 1px solid var(--border-color); border-radius: 8px; padding: 24px; margin: 24px 0; }
@@ -169,13 +170,13 @@
     <div class="layout-wrapper">
         <div class="header">
             <div class="header-title" id="arabicHeaderTitle">
-                <h1>طلب حذف الحساب والبيانات</h1>
-                <p>تطبيق بنك دم اليمن — مبادرة صالح باقمري التطوعية</p>
+                <h1>طلب حذف البيانات</h1>
+                <p>تطبيق كويك شات — Direct WhatsApp Messenger</p>
                 <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">آخر تحديث: يونيو 2026</p>
             </div>
             <div class="header-title en" id="englishHeaderTitle">
-                <h1>Account &amp; Data Deletion</h1>
-                <p>Yemen Blood Bank App — Volunteer Initiative by Saleh Bagomri</p>
+                <h1>Data Deletion Request</h1>
+                <p>QuickChat App — Direct WhatsApp Messenger</p>
                 <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">Last Updated: June 2026</p>
             </div>
             <div class="language-toggle">
@@ -188,9 +189,8 @@
             <aside class="sidebar" id="arabicSidebar">
                 <nav class="sidebar-nav">
                     <a href="#ar-intro" class="active">المقدمة</a>
-                    <a href="#ar-option1">الطريقة 1: من التطبيق</a>
-                    <a href="#ar-option2">الطريقة 2: عبر البريد</a>
-                    <a href="#ar-data">البيانات التي تُحذف</a>
+                    <a href="#ar-how">كيفية حذف البيانات</a>
+                    <a href="#ar-data">أنواع البيانات التي تُحذف</a>
                     <a href="#ar-contact">الاتصال بنا</a>
                 </nav>
             </aside>
@@ -198,8 +198,7 @@
             <aside class="sidebar en" id="englishSidebar">
                 <nav class="sidebar-nav">
                     <a href="#en-intro">Introduction</a>
-                    <a href="#en-option1">Method 1: In-App Request</a>
-                    <a href="#en-option2">Method 2: Via Email</a>
+                    <a href="#en-how">How to Delete Your Data</a>
                     <a href="#en-data">Data Types Deleted</a>
                     <a href="#en-contact">Contact Us</a>
                 </nav>
@@ -209,62 +208,62 @@
                 <!-- Arabic Version -->
                 <div class="content ar" id="arabicContent">
                     <div class="section" id="ar-intro">
-                        <h2>طلب حذف الحساب والبيانات</h2>
-                        <p>تطبيق <strong>بنك دم اليمن</strong> يلتزم بالخصوصية والشفافية التامة فيما يتعلق ببيانات المستخدمين. إذا كنت قد سجلت كمتبرع بالدم أو مستخدم للتطبيق، فيمكنك في أي وقت طلب حذف حسابك وكامل بياناتك الشخصية والطبية المسجلة لدينا بشكل نهائي وبأثر فوري.</p>
+                        <h2>المقدمة وحالة الحسابات</h2>
+                        <p>بما أن تطبيق <strong>كويك شات (QuickChat)</strong> يعتمد بالكامل على نظام <strong>الخصوصية أولاً</strong> وتخزين البيانات محلياً على جهازك، فإنه <strong>لا يتوفر لديه أي خوادم خارجية ولا يتطلب تسجيل حسابات أو مستخدمين</strong>.</p>
+                        <p>لذلك، فإنه لا يوجد أي حساب أو بيانات خاصة بك مخزنة على خوادمنا السحابية لنقوم بحذفها. تقع السيطرة الكاملة على البيانات المسجلة محلياً في يدك كلياً.</p>
                     </div>
 
-                    <div class="section" id="ar-option1">
-                        <h2>الطريقة 1 — من داخل التطبيق (الموصى بها)</h2>
+                    <div class="section" id="ar-how">
+                        <h2>كيفية حذف بياناتك الشخصية بالكامل</h2>
+                        <p>يمكنك في أي وقت حذف السجل وقوالب الرسائل والإعدادات الخاصة بك من هاتفك عبر إحدى الطرق التالية:</p>
                         <div class="callout-box">
-                            <p>يمكنك تقديم طلب حذف بياناتك مباشرة من داخل التطبيق دون الحاجة لمراسلتنا خارجياً:</p>
-                            <ul style="margin-top: 12px;">
-                                <li>اذهب إلى القائمة الرئيسية أو قائمة الإعدادات في التطبيق.</li>
-                                <li>انقر على قسم <strong>"البلاغات"</strong>.</li>
-                                <li>قدّم بلاغاً جديداً تطلب فيه صراحة (طلب حذف الحساب والبيانات).</li>
-                                <li><strong>إجراء الحماية والتأكيد:</strong> لحماية مستخدمينا من طلبات الحذف العشوائية أو غير المصرح بها، سيتواصل معك فريق الإدارة هاتفياً عبر رقمك المسجّل للتأكد من رغبتك الفعلية في الحذف.</li>
-                                <li>بمجرد تأكيد هويتك، سيقوم المسؤول بحذف بطاقتك وكافة بياناتك نهائياً من النظام فوراً.</li>
+                            <h3>الطريقة 1 — من داخل التطبيق</h3>
+                            <ul>
+                                <li><strong>لحذف السجل الأخير:</strong> افتح التطبيق، واذهب إلى قسم السجل، وانقر على أيقونة سلة المهملات لمسح السجل بأكمله أو لحذف أرقام محددة.</li>
+                                <li><strong>لحذف القوالب:</strong> اذهب لقسم قوالب الرسائل، واسحب القالب الذي ترغب بحذفه أو اضغط على زر الحذف الخاص به.</li>
                             </ul>
                         </div>
-                    </div>
-
-                    <div class="section" id="ar-option2">
-                        <h2>الطريقة 2 — عبر البريد الإلكتروني</h2>
                         <div class="callout-box">
-                            <p>إذا لم تكن تملك التطبيق حالياً أو تفضل مراسلتنا بالبريد الإلكتروني:</p>
-                            <ul style="margin-top: 12px;">
-                                <li>أرسل رسالة إلكترونية إلى العنوان: <a href="mailto:s.bagomri@gmail.com" style="color: var(--accent-color);">s.bagomri@gmail.com</a></li>
-                                <li>اجعل عنوان الرسالة: <strong>"طلب حذف بيانات - بنك دم اليمن"</strong>.</li>
-                                <li>يرجى تضمين <strong>الاسم المسجّل</strong> و<strong>رقم الهاتف</strong> الذي تم استخدامه للتسجيل في التطبيق.</li>
-                                <li>سيقوم فريق الدعم بالتواصل معك هاتفياً أو عبر البريد لتأكيد طلبك، وسيتم حذف البيانات نهائياً خلال 30 يوماً من تاريخ تقديم الطلب.</li>
+                            <h3>الطريقة 2 — عبر إعدادات نظام تشغيل الجوال</h3>
+                            <ul>
+                                <li>اذهب إلى تطبيق <strong>الإعدادات (Settings)</strong> في هاتفك.</li>
+                                <li>اختر <strong>التطبيقات (Apps)</strong> أو إدارة التطبيقات.</li>
+                                <li>ابحث عن تطبيق <strong>QuickChat</strong> واضغط عليه.</li>
+                                <li>اختر <strong>مكان التخزين (Storage)</strong>.</li>
+                                <li>اضغط على <strong>مسح البيانات (Clear Data / Clear Storage)</strong>.</li>
+                                <li>بمجرد النقر، سيتم تدمير كافة السجلات والقوالب والإعدادات المحلية بشكل فوري ونهائي من هاتفك.</li>
+                            </ul>
+                        </div>
+                        <div class="callout-box">
+                            <h3>الطريقة 3 — إلغاء تثبيت التطبيق</h3>
+                            <ul>
+                                <li>اضغط مطولاً على أيقونة تطبيق كويك شات على شاشتك الرئيسية، ثم اختر <strong>إلغاء التثبيت (Uninstall)</strong>.</li>
+                                <li>سيقوم نظام التشغيل تلقائياً بمسح كافة الملفات وقواعد البيانات المحلية (Hive) المرتبطة بالتطبيق نهائياً.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="section" id="ar-data">
-                        <h2>أنواع البيانات التي تُحذف</h2>
-                        <p>عند تأكيد طلب الحذف الخاص بك، سيقوم التطبيق بمسح البيانات التالية نهائياً وبشكل غير قابل للاسترجاع:</p>
+                        <h2>أنواع البيانات التي تُحذف نهائياً</h2>
+                        <p>عند حذف البيانات بالطرق المذكورة بالأعلى، سيتم مسح المعطيات التالية نهائياً:</p>
                         <ul>
-                            <li><strong>المعلومات الشخصية:</strong> الاسم الكامل، والجنس، والعمر.</li>
-                            <li><strong>معلومات الاتصال:</strong> جميع أرقام الهواتف المسجلة المرتبطة بملفك (حتى 3 أرقام).</li>
-                            <li><strong>المعلومات الطبية والجغرافية:</strong> فصيلة الدم، والمحافظة، والمديرية.</li>
-                            <li><strong>بيانات النظام:</strong> تاريخ آخر تبرع، وتاريخ الإضافة والتعديل، وأي بيانات حساب إداري مرتبطة.</li>
+                            <li>سجل الأرقام والتوقيتات التي تمت مراسلتها (Recent chats history).</li>
+                            <li>جميع القوالب النصية المخصصة التي قمت بإنشائها.</li>
+                            <li>تفضيلات التطبيق الخاصة بك (رمز الدولة الافتراضي والمظهر الداكن أو الفاتح).</li>
                         </ul>
-                        <div class="callout-box" style="border-left: 4px solid #ef4444;">
-                            <p><strong>سياسة الاحتفاظ بالبيانات:</strong> لا يحتفظ تطبيق بنك دم اليمن بأي نسخ احتياطية أو سجلات تاريخية للبيانات المحذوفة. الحذف نهائي وتام فور اكتمال الإجراء.</p>
-                        </div>
                     </div>
 
                     <div class="section" id="ar-contact">
                         <h2>الاتصال بنا</h2>
-                        <p>إذا كانت لديك أي أسئلة أو استفسارات إضافية بخصوص سياسة حذف البيانات، يسعدنا تواصلك معنا:</p>
+                        <p>إذا كانت لديك أي استفسارات أو تساؤلات بخصوص أمان بياناتك أو مسحها محلياً، يمكنك التواصل معنا:</p>
                         <div class="contact-grid">
                             <div class="contact-item">
-                                <div class="contact-item-label">البريد الإلكتروني</div>
+                                <div class="contact-item-label">البريد الإلكتروني للمطور</div>
                                 <div class="contact-item-value"><a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></div>
                             </div>
                             <div class="contact-item">
-                                <div class="contact-item-label">واتساب الدعم الفني</div>
-                                <div class="contact-item-value"><a href="https://wa.me/967770727055" dir="ltr">+967 770727055</a></div>
+                                <div class="contact-item-label">حساب الإنستغرام</div>
+                                <div class="contact-item-value"><a href="https://instagram.com/salehbagomri" target="_blank">@salehbagomri</a></div>
                             </div>
                         </div>
                     </div>
@@ -273,62 +272,62 @@
                 <!-- English Version -->
                 <div class="content en" id="englishContent">
                     <div class="section" id="en-intro">
-                        <h2>Account &amp; Data Deletion Request</h2>
-                        <p><strong>Yemen Blood Bank</strong> is fully committed to user privacy and transparency. If you have registered as a blood donor or user in our application, you can request the permanent and irreversible deletion of your account and all associated personal and medical data at any time.</p>
+                        <h2>Introduction & Account Status</h2>
+                        <p>Because the <strong>QuickChat</strong> application operates on a strict <strong>Privacy-First</strong> policy and stores all configurations locally on your device, it <strong>does not use external servers and does not require account registration</strong>.</p>
+                        <p>Consequently, there are no user accounts or personal details stored on remote servers for us to delete. You hold absolute control over all data cached on your device.</p>
                     </div>
 
-                    <div class="section" id="en-option1">
-                        <h2>Method 1 — From Within the App (Recommended)</h2>
+                    <div class="section" id="en-how">
+                        <h2>How to Permanently Delete Your Data</h2>
+                        <p>You can purge your recent history, custom templates, and settings from your device at any time using one of these methods:</p>
                         <div class="callout-box">
-                            <p>You can request the deletion of your data directly through the application:</p>
-                            <ul style="margin-top: 12px;">
-                                <li>Navigate to the main menu or settings panel inside the application.</li>
-                                <li>Click on the <strong>"Reports"</strong> section.</li>
-                                <li>Submit a new report requesting account and data deletion.</li>
-                                <li><strong>Security &amp; Verification Step:</strong> To safeguard our users against unauthorized deletion requests, the administration team will contact you via your registered phone number to verify your request.</li>
-                                <li>Once your identity is verified, your donor card and all associated details will be permanently deleted from our servers immediately.</li>
+                            <h3>Method 1 — Inside the App</h3>
+                            <ul>
+                                <li><strong>To clear recent chats:</strong> Open the app, navigate to the History section, and tap the trash can icon to wipe all logs or delete specific entries.</li>
+                                <li><strong>To clear templates:</strong> Go to the Templates tab, swipe to delete, or tap the delete button on any template.</li>
                             </ul>
                         </div>
-                    </div>
-
-                    <div class="section" id="en-option2">
-                        <h2>Method 2 — Via Email</h2>
                         <div class="callout-box">
-                            <p>If you do not have the app installed or prefer to contact us externally:</p>
-                            <ul style="margin-top: 12px;">
-                                <li>Send an email to: <a href="mailto:s.bagomri@gmail.com" style="color: var(--accent-color);">s.bagomri@gmail.com</a></li>
-                                <li>Subject the email: <strong>"Data Deletion Request - Yemen Blood Bank"</strong>.</li>
-                                <li>Please provide your <strong>registered name</strong> and the <strong>phone number</strong> used to register.</li>
-                                <li>Our support team will contact you to verify your identity, and all data will be permanently purged within 30 days of the request.</li>
+                            <h3>Method 2 — Via Mobile System Settings</h3>
+                            <ul>
+                                <li>Open your phone's <strong>Settings</strong> app.</li>
+                                <li>Go to <strong>Apps</strong> or Application Manager.</li>
+                                <li>Find and select <strong>QuickChat</strong>.</li>
+                                <li>Tap on <strong>Storage</strong>.</li>
+                                <li>Tap <strong>Clear Data</strong> or <strong>Clear Storage</strong>.</li>
+                                <li>All local logs, templates, and options will be immediately and permanently destroyed.</li>
+                            </ul>
+                        </div>
+                        <div class="callout-box">
+                            <h3>Method 3 — Uninstalling the App</h3>
+                            <ul>
+                                <li>Tap and hold the QuickChat icon on your device's home screen or app drawer, then select <strong>Uninstall</strong>.</li>
+                                <li>The operating system will automatically wipe all local files and databases (Hive) associated with the app.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="section" id="en-data">
                         <h2>Data Types Deleted</h2>
-                        <p>Upon confirmation of your deletion request, the following data points will be permanently deleted and cannot be recovered:</p>
+                        <p>Performing any of the steps above will permanently erase the following locally stored data points:</p>
                         <ul>
-                            <li><strong>Personal Info:</strong> Full name, gender, and age.</li>
-                            <li><strong>Contact Details:</strong> All registered phone numbers associated with your profile (up to 3 numbers).</li>
-                            <li><strong>Medical &amp; Geographic Details:</strong> Blood type, Governorate, and District.</li>
-                            <li><strong>System Logs:</strong> Last donation date, creation and modification timestamps, and any linked administrative account details.</li>
+                            <li>Your history log of recently messaged phone numbers and timestamps.</li>
+                            <li>All custom message templates you created.</li>
+                            <li>App options (default country code, and theme configuration).</li>
                         </ul>
-                        <div class="callout-box" style="border-left: 4px solid #ef4444;">
-                            <p><strong>Data Retention Policy:</strong> Yemen Blood Bank does not retain any backup copies or historical logs of deleted data. Purges are absolute and irreversible.</p>
-                        </div>
                     </div>
 
                     <div class="section" id="en-contact">
                         <h2>Contact Us</h2>
-                        <p>If you have any questions or queries regarding this data deletion policy, feel free to reach out:</p>
+                        <p>If you have any questions or concerns regarding your local data deletion, please contact us:</p>
                         <div class="contact-grid">
                             <div class="contact-item">
-                                <div class="contact-item-label">Email</div>
+                                <div class="contact-item-label">Developer Email</div>
                                 <div class="contact-item-value"><a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></div>
                             </div>
                             <div class="contact-item">
-                                <div class="contact-item-label">WhatsApp Support</div>
-                                <div class="contact-item-value"><a href="https://wa.me/967770727055" dir="ltr">+967 770727055</a></div>
+                                <div class="contact-item-label">Instagram Account</div>
+                                <div class="contact-item-value"><a href="https://instagram.com/salehbagomri" target="_blank">@salehbagomri</a></div>
                             </div>
                         </div>
                     </div>
@@ -339,7 +338,7 @@
         <div class="footer" id="arabicFooter">
             <p>إصدار التطبيق: 1.0.0</p>
             <p>آخر تحديث: يونيو 2026</p>
-            <p>بنك دم اليمن — تطبيق التبرع بالدم</p>
+            <p>كويك شات — تطبيق المراسلة المباشرة لواتساب</p>
             <p><a href="index.html">سياسة الخصوصية</a> | <a href="terms.html">شروط الاستخدام</a></p>
             <p style="margin-top: 20px;">&copy; 2026 Saleh Bagomri - جميع الحقوق محفوظة</p>
         </div>
@@ -347,7 +346,7 @@
         <div class="footer en" id="englishFooter">
             <p>App Version: 1.0.0</p>
             <p>Last Updated: June 2026</p>
-            <p>Yemen Blood Bank — Blood Donation App</p>
+            <p>QuickChat — Direct WhatsApp Messenger</p>
             <p><a href="index.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
             <p style="margin-top: 20px;">&copy; 2026 Saleh Bagomri - All Rights Reserved</p>
         </div>

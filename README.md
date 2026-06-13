@@ -1,120 +1,68 @@
-# 📄 سياسة الخصوصية - Privacy Policy
+# 📄 سياسة الخصوصية وشروط الاستخدام - Privacy Policy & Terms
 
-## تطبيق بنك دم اليمن
-## Yemen Blood Bank App
+## تطبيق كويك شات - QuickChat App
+### مراسلة واتساب مباشرة بدون حفظ الأرقام - Direct WhatsApp Messenger
 
 ---
 
-### 🔗 عرض السياسة الكاملة
-**View Full Privacy Policy**
+### 🔗 عرض السياسة والشروط على الويب
+**View Online Web Version**
 
-👉 [اضغط هنا لقراءة سياسة الخصوصية كاملة - Click here to read the full privacy policy](PRIVACY_POLICY.md)
+👉 **[سياسة الخصوصية - Privacy Policy](index.html)**
+👉 **[شروط الاستخدام - Terms of Use](terms.html)**
+👉 **[حذف البيانات - Data Deletion](delete-account.html)**
 
-🌐 [عرض السياسة على الويب - View on Web](https://salehbagomri.github.io/yemen-blood-bank-privacy/)
+🌐 **رابط الموقع على الويب - Web Link**: [https://salehbagomri.github.io/quickchat-privacy/](https://salehbagomri.github.io/quickchat-privacy/)
 
 ---
 
 ### 📱 عن التطبيق - About the App
 
-**بنك دم اليمن** هو تطبيق مجاني يهدف إلى ربط المتبرعين بالدم مع المحتاجين في اليمن.
+**كويك شات (QuickChat)** هو تطبيق محمول ذكي وخفيف يتيح لك مراسلة أي رقم واتساب مباشرة **دون الحاجة لحفظه** في جهات اتصالك. مثالي لأصحاب المتاجر الإلكترونية، فرق المبيعات، سائقي التوصيل، وأي شخص يحتاج لمراسلة أرقام جديدة يومياً بسرعة.
 
-**Yemen Blood Bank** is a free app that aims to connect blood donors with recipients in Yemen.
+**QuickChat** is a smart, lightweight mobile app that lets you message any WhatsApp number directly **without saving it** to your contacts. Perfect for online store owners, sales teams, delivery drivers, and anyone who contacts new numbers daily.
 
 ---
 
-### 🔐 الالتزام بالخصوصية - Privacy Commitment
+### 🔐 الخصوصية أولاً - Privacy-First
 
-نحن ملتزمون بحماية خصوصيتك وبياناتك الشخصية:
+نحن ملتزمون بحماية خصوصيتك وبياناتك الشخصية بشكل تام:
 
-We are committed to protecting your privacy and personal data:
+We are committed to protecting your privacy and personal data completely:
 
+- ✅ **لا خوادم سحابية** - No Cloud Servers (100% Local database)
 - ✅ **لا إعلانات** - No Advertisements
-- ✅ **لا بيع للبيانات** - No Data Selling
-- ✅ **تشفير كامل** - Full Encryption
-- ✅ **شفافية تامة** - Complete Transparency
-- ✅ **يعمل بدون إنترنت** - Works Offline
+- ✅ **لا بيع للبيانات** - No Data Selling or Sharing
+- ✅ **لا برمجيات تتبع** - No Analytics or User Tracking
+- ✅ **شفافية مطلقة** - Complete Transparency
 
 ---
 
-### 📋 ملخص السياسة - Policy Summary
+### 🕐 البيانات المخزنة محلياً - Locally Cached Data
 
-#### البيانات المجمعة - Data Collected:
-- الاسم ورقم الهاتف - Name and phone number
-- فصيلة الدم والمديرية - Blood type and district
-- معلومات صحية أساسية - Basic health information
+- **سجل الأرقام الأخيرة** (Recent Chats) لتسهيل العودة إليها ومراسلتها مجدداً.
+- **قوالب الرسائل** (Templates) التي تقوم بإنشائها لتسهيل المراسلة بنقرة زر.
+- **تفضيلات التطبيق** (Theme and configurations) مثل رمز الدولة الافتراضي والمظهر.
 
-#### استخدام البيانات - Data Usage:
-- ربط المتبرعين بالمحتاجين - Connect donors with recipients
-- البحث عن متبرعين متاحين - Search for available donors
-- تحسين الخدمة - Improve service
-
-#### الحماية - Protection:
-- تخزين آمن على Supabase - Secure storage on Supabase
-- تشفير SSL/TLS - SSL/TLS encryption
-- تخزين محلي مشفر (وضع بدون إنترنت) - Encrypted local storage (offline mode)
-- عدم مشاركة مع أطراف ثالثة - No third-party sharing
+جميع هذه البيانات تُخزن على ذاكرة الهاتف الداخلية باستخدام قاعدة بيانات **Hive** المحلية المشفرة/المحمية بنظام تشغيل الجوال ولا يتم رفعها لأي مكان آخر.
 
 ---
 
-### 📞 التطوير والدعم الفني - Development & Support
+### 📞 التطوير والدعم الفني - Developer & Support
 
-**تطوير وتصميم**: صالح باقمري
-
-**البريد الإلكتروني - Email**: s.bagomri@gmail.com
-
-**واتساب - WhatsApp**: [+967 770 727 055](https://wa.me/967770727055)
-
-**الموقع - Website**: [www.bagomri.com](https://www.bagomri.com)
+- **تطوير وتصميم - Developed by**: صالح باقمري (Saleh Bagomri)
+- **البريد الإلكتروني - Email**: s.bagomri@gmail.com
+- **إنستغرام - Instagram**: [@salehbagomri](https://instagram.com/salehbagomri)
+- **مستودع الكود - Code Repository**: [github.com/salehbagomri/quickchat](https://github.com/salehbagomri/quickchat)
 
 ---
 
-### 📅 آخر تحديث - Last Updated
+### ⚖️ الامتثال والتبعية - Compliance & Disclaimer
 
-**20 أبريل 2026 - April 20, 2026**
-
-**إصدار التطبيق - App Version**: 1.0.3
-
----
-
-### 📖 اللغات المتاحة - Available Languages
-
-- 🇾🇪 **العربية** - Arabic (النسخة الكاملة)
-- 🇬🇧 **English** - English (Full Version)
+- التطبيق متوافق بالكامل مع سياسات متجر Google Play ومتجر Apple App Store.
+- **إخلاء مسؤولية**: كويك شات هو تطبيق مستقل ولا يتبع أو يرتبط رسمياً بشركة **WhatsApp LLC** أو شركة **Meta Platforms, Inc.**.
 
 ---
 
-### 🔗 روابط مهمة - Important Links
-
-- **سياسة الخصوصية الكاملة** - [اقرأ هنا - Read here](PRIVACY_POLICY.md)
-- **Google Play Store** - [قريباً - Coming soon]
-- **موقع المطور** - [www.bagomri.com](https://www.bagomri.com)
-
----
-
-### ⚖️ الامتثال - Compliance
-
-هذه السياسة تتوافق مع:
-
-This policy complies with:
-
-- ✅ Google Play Store Policies
-- ✅ GDPR Principles
-- ✅ Yemen Data Protection Regulations
-
----
-
-### 📝 الترخيص - License
-
-هذا المستودع مخصص فقط لاستضافة سياسة الخصوصية لتطبيق بنك دم اليمن.
-
-This repository is dedicated solely to hosting the privacy policy for Yemen Blood Bank App.
-
----
-
-💙 **صُنع بحب لأهالي اليمن**
-
-💙 **Made with love for the people of Yemen**
-
----
-
-**بنك دم اليمن 2026 © - جميع الحقوق محفوظة - All Rights Reserved**
+**كويك شات 2026 © - جميع الحقوق محفوظة - All Rights Reserved**
+صُنع بحب في اليمن 🇾🇪 - Made with love in Yemen

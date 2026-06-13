@@ -1,113 +1,102 @@
 # شروط الاستخدام - Terms of Use
 
-**تطبيق بنك دم اليمن - Yemen Blood Bank App**
+**تطبيق كويك شات - QuickChat App**
 
-**آخر تحديث: 29 مايو 2026 - Last Updated: May 29, 2026**
+**آخر تحديث: يونيو 2026 - Last Updated: June 2026**
 
-**🔗 رابط الشروط: https://salehbagomri.github.io/yemen-blood-bank-privacy/terms.html**
+**🔗 رابط شروط الاستخدام على الويب: https://salehbagomri.github.io/quickchat-privacy/terms.html**
 
 ---
 
 ## 🇾🇪 النسخة العربية
 
 ### 1. مقدمة
-تطبيق بنك دم اليمن خدمة **مجانية غير ربحية** لتسهيل التواصل بين المتبرعين بالدم والمحتاجين إليه في عموم محافظات اليمن. باستخدامك التطبيق فإنك توافق على هذه الشروط؛ وإن لم توافق فيرجى التوقف عن استخدامه.
+تطبيق كويك شات (QuickChat) هو خدمة **مجانية بالكامل** تهدف لتسهيل التواصل المباشر ومراسلة الأرقام عبر تطبيق واتساب دون الحاجة لحفظها في جهات اتصال الهاتف. باستخدامك أو تحميلك للتطبيق، فإنك تقرّ وتوافق على شروط الاستخدام هذه بالكامل؛ وإذا كنت لا توافق عليها، يرجى التوقف عن استخدام التطبيق فوراً.
 
 ### 2. طبيعة الخدمة
-* التطبيق **أداة وساطة** تربط المتبرع بالمحتاج، وليس جهة طبية ولا بنك دم رسمياً.
-* الخدمة مجانية بالكامل، بلا رسوم أو مدفوعات أو إعلانات.
-* لا يضمن التطبيق توفّر متبرع مناسب ولا استجابته ولا صلاحيته الطبية للتبرع.
+- التطبيق عبارة عن **أداة تسهيلية مستقلة** تقوم بتحويل أرقام الهواتف المدخلة إلى روابط مراسلة مباشرة (wa.me) وتفتحها في تطبيق واتساب الرسمي. هو ليس تطبيق مراسلة مستقل.
+- الخدمة مجانية تماماً ولا تحتوي على أي إعلانات، ولا تطلب أي اشتراكات أو رسوم.
+- لا يضمن التطبيق أن الرقم المدخل مسجل في واتساب ولا يتحمل مسؤولية عدم استجابة الأرقام.
 
 ### 3. الحسابات والتسجيل
-* **المستخدم العادي:** لا يحتاج حساباً أو كلمة مرور للبحث أو لإضافة متبرع.
-* **المستشفيات والمسؤولون:** لهم حسابات خاصة، وهم مسؤولون عن سرية بيانات الدخول وكل نشاط عبر حساباتهم.
-* يحق للإدارة إيقاف أو حذف أي حساب يخالف هذه الشروط.
+لا يحتاج المستخدم لإنشاء حساب أو تسجيل دخول أو تقديم أي تفاصيل شخصية لاستخدام التطبيق. يتم حفظ التفضيلات والبيانات محلياً على جهازك فقط.
 
-### 4. مسؤوليات المتبرع
-* تقديم بيانات صحيحة (الاسم، الهاتف، فصيلة الدم، المحافظة/المديرية، العمر).
-* أن يكون عمرك 18 سنة فأكثر ومؤهلاً صحياً للتبرع.
-* تتحمل مسؤولية الموافقة على عرض رقم هاتفك للباحثين عن المتبرعين المتاحين.
-* يمكنك طلب حذف بياناتك في أي وقت عبر وسائل التواصل أدناه.
+### 4. مسؤوليات المستخدم
+- تقديم وإدخال أرقام صحيحة وصالحة للمراسلة.
+- تتحمل المسؤولية القانونية الكاملة عن محتوى الرسائل التي تقوم بإرسالها وعن الأرقام التي تراسلها.
+- الالتزام بشروط الخدمة وسياسات شركة واتساب الرسمية عند المراسلة.
 
-### 5. مسؤوليات طالب الدم
-* استخدام أرقام المتبرعين **لغرض التبرع بالدم فقط**.
-* التحقق الطبي من فصيلة الدم وصلاحية التبرع عبر الجهة الصحية المختصة قبل أي نقل دم.
-* احترام خصوصية المتبرع وعدم إزعاجه أو إساءة استخدام بياناته.
+### 5. الاستخدام المحظور
+- استخدام التطبيق لإرسال رسائل سبام (Spam) أو إعلانات غير مصرح بها أو إزعاج الآخرين.
+- محاولة اختراق التطبيق أو الهندسة العكسية أو تخريب البيانات المحلية.
+- استخدام التطبيق لأي أغراض غير قانونية أو تنتهك خصوصية الآخرين.
 
-### 6. الاستخدام المحظور
-* إدخال بيانات وهمية أو تسجيل متبرعين دون علمهم وموافقتهم.
-* جمع أرقام المتبرعين أو استخدامها لأغراض تجارية أو دعائية أو غير التبرع.
-* إرسال رسائل مزعجة (Spam) أو التحرّش أو الإساءة لأي مستخدم.
-* محاولة اختراق النظام أو الوصول غير المصرّح به لقاعدة البيانات (Supabase).
-* استخدام التطبيق في أي نشاط مخالف للقانون.
+### 6. إخلاء المسؤولية
+يتم تقديم تطبيق كويك شات "كما هو" وبدون أي ضمانات من أي نوع. لا يتحمل المطور أي مسؤولية عن أي ضرر مادي، أو معنوي، أو فقدان للبيانات، أو حظر للحسابات على واتساب نتيجة سوء استخدام التطبيق أو استخدامه لأغراض الإزعاج والسبام.
 
-### 7. إخلاء المسؤولية الطبية
-التطبيق وسيلة مساعدة لتسهيل التواصل فقط، ولا يُغني عن الفحص والاستشارة الطبية المتخصصة. لا تتحمل إدارة التطبيق أي مسؤولية عن دقة بيانات المتبرعين أو نتائج التبرع/نقل الدم أو أي ضرر مباشر أو غير مباشر ناتج عن الاستخدام. المسؤولية الطبية الكاملة على الجهات الصحية المختصة.
+### 7. الملكية الفكرية
+جميع الشعارات والتصميمات والأكواد البرمجية الخاصة بتطبيق كويك شات هي ملك للمطور صالح باقمري، ولا يجوز إعادة إنتاجها أو نسخها دون إذن مسبق.
 
-### 8. الملكية الفكرية
-جميع العلامات والشعارات والتصميمات والأكواد البرمجية في التطبيق ملك للمطوّر، ولا يجوز نسخها دون إذن خطي مسبق.
+### 8. التعديل والإنهاء
+نحتفظ بالحق في تحديث شروط الاستخدام هذه في أي وقت، واستمرارك في استخدام التطبيق بعد أي تعديل يعتبر موافقة منك على الشروط الجديدة.
 
-### 9. التعديل والإنهاء
-نحتفظ بالحق في تحديث هذه الشروط في أي وقت، واستمرارك في الاستخدام يُعدّ موافقة. ويحق للإدارة إيقاف الخدمة أو أي حساب مخالف دون إشعار مسبق.
+### 9. التبعية والعلامات التجارية
+تطبيق كويك شات مستقل تماماً ولا توجد له أي تبعية رسمية لشركة **WhatsApp LLC** أو شركة **Meta Platforms, Inc.**، والعلامة التجارية "WhatsApp" هي ملك لأصحابها ولا تُستخدم هنا إلا للغرض التوضيحي للخدمة.
 
-### 10. القانون المطبّق وحل النزاعات
-تخضع هذه الشروط لقوانين الجمهورية اليمنية، وتُحلّ النزاعات ودياً، وإلا اختصت المحاكم المختصة في محافظة حضرموت.
+### 10. القانون المطبق
+تخضع هذه الشروط لقوانين الجمهورية اليمنية، وتُحل النزاعات ودياً، وعند تعذر ذلك تختص المحاكم في محافظة حضرموت بالنظر فيها.
 
 ### 11. التواصل معنا
-* **البريد الإلكتروني:** s.bagomri@gmail.com
-* **واتساب:** +967 770727055
-* **الموقع:** www.bagomri.com
-* **العنوان:** حضرموت، الجمهورية اليمنية
+- **المطور**: صالح باقمري
+- **البريد الإلكتروني**: s.bagomri@gmail.com
+- **حساب الإنستغرام**: [@salehbagomri](https://instagram.com/salehbagomri)
 
 ---
 
 ## 🇬🇧 English Version
 
 ### 1. Introduction
-Yemen Blood Bank is a **free, non-profit** service that facilitates connecting blood donors with recipients across Yemen. By using the app you agree to these Terms; if you do not agree, please stop using it.
+QuickChat is a **completely free** utility application designed to facilitate direct messaging on WhatsApp without saving numbers to your phone's contacts. By downloading or using the app, you agree to these Terms of Use in full. If you do not agree to these terms, please stop using the app immediately.
 
-### 2. Nature of the Service
-* The app is a **connection tool** linking donors and recipients; it is not a medical entity or official blood bank.
-* The service is entirely free — no fees, payments, or ads.
-* The app does not guarantee the availability, response, or medical eligibility of any donor.
+### 2. Nature of Service
+- The app is a **standalone helper tool** that converts inputted phone numbers to direct messaging links (wa.me) and opens them in the official WhatsApp application. It is not an independent messaging client.
+- The service is entirely free, contains no ads, and requires no subscriptions or fees.
+- We do not guarantee that the entered number is registered on WhatsApp, nor do we bear responsibility for the responsiveness of the recipients.
 
 ### 3. Accounts & Registration
-* **Regular users:** No account or password needed to search for or add a donor.
-* **Hospitals & Admins:** Have dedicated accounts and are responsible for their credentials and all activity under them.
-* The administration may suspend or delete any account violating these terms.
+Users do not need to register an account or log in to use the app. All settings and recent logs are stored locally on your device only.
 
-### 4. Donor Responsibilities
-* Provide accurate data (name, phone, blood type, governorate/district, age).
-* Be 18+ and medically eligible to donate.
-* You are responsible for consenting to display your phone number to those searching for available donors.
-* You may request deletion of your data anytime via the contacts below.
+### 4. User Responsibilities
+- Input valid and correct phone numbers for messaging.
+- Assume full legal responsibility for the content of messages sent and the numbers you choose to message.
+- Adhere to the official WhatsApp Terms of Service when using the messaging functionality.
 
-### 5. Recipient Responsibilities
-* Use donor phone numbers **for blood donation purposes only**.
-* Medically verify blood type and eligibility through qualified health authorities before any transfusion.
-* Respect donor privacy and do not harass or misuse their data.
+### 5. Prohibited Use
+- Using the app to send spam, mass bulk messages, unsolicited promotions, or to harass others.
+- Attempting to reverse engineer the application, hack local configurations, or modify its binary code.
+- Utilizing the app for any illegal purposes or to violate others' privacy.
 
-### 6. Prohibited Use
-* Entering fake data or registering donors without their consent.
-* Harvesting donor numbers or using them for commercial/promotional/non-donation purposes.
-* Sending spam, harassment, or abuse to any user.
-* Attempting to breach the system or gain unauthorized access to the database (Supabase).
-* Using the app for any unlawful activity.
+### 6. Disclaimer
+QuickChat is provided "as is" without any warranties. The developer shall not be liable for any direct or indirect damages, data loss, or WhatsApp account bans resulting from the misuse of this tool (e.g., for spamming or harassment).
 
-### 7. Medical Disclaimer
-The app is only a communication-facilitation tool and does not replace professional medical examination and advice. The administration bears no responsibility for the accuracy of donor data, donation/transfusion outcomes, or any direct or indirect harm from using the app. Full medical responsibility lies with competent health authorities.
+### 7. Intellectual Property
+All logos, user interfaces, and source code of QuickChat belong to the developer, Saleh Bagomri, and may not be copied or reproduced without prior written consent.
 
-### 8. Intellectual Property
-All marks, logos, designs, and source code belong to the developer and may not be copied without prior written permission.
+### 8. Modifications & Termination
+We reserve the right to modify these terms at any time. Continued use of the app after updates are posted constitutes acceptance of the new terms.
 
-### 9. Modifications & Termination
-We may update these terms at any time; continued use implies acceptance. The administration may suspend the service or any violating account without prior notice.
+### 9. Affiliation & Trademarks
+QuickChat is an independent tool and is not affiliated, associated, authorized, endorsed by, or officially connected with **WhatsApp LLC**, **Meta Platforms, Inc.**, or any of their affiliates. The trademark "WhatsApp" is owned by its respective owners and is used here for descriptive purposes only.
 
-### 10. Governing Law & Disputes
-Governed by the laws of the Republic of Yemen. Disputes shall be resolved amicably; failing that, the competent courts in Hadhramout, Yemen shall have jurisdiction.
+### 10. Governing Law
+These terms are governed by the laws of the Republic of Yemen. Disputes shall be resolved amicably; otherwise, the competent courts in Hadhramout, Yemen shall have exclusive jurisdiction.
 
 ### 11. Contact Us
-* **Email:** s.bagomri@gmail.com
-* **WhatsApp:** +967 770727055
-* **Website:** www.bagomri.com
-* **Address:** Hadhramout, Yemen
+- **Developer**: Saleh Bagomri
+- **Email**: s.bagomri@gmail.com
+- **Instagram**: [@salehbagomri](https://instagram.com/salehbagomri)
+
+---
+
+كويك شات 2026 © - جميع الحقوق محفوظة - All Rights Reserved
+صُنع بحب في اليمن - Made with love in Yemen

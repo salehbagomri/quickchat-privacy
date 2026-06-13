@@ -1,330 +1,122 @@
-﻿# سياسة الخصوصية - Privacy Policy
+# سياسة الخصوصية - Privacy Policy
 
-**تطبيق بنك دم اليمن - Yemen Blood Bank App**
+**تطبيق كويك شات - QuickChat App**
 
-**آخر تحديث: 20 أبريل 2026 - Last Updated: April 20, 2026**
+**آخر تحديث: يونيو 2026 - Last Updated: June 2026**
 
-**🔗 رابط السياسة: https://salehbagomri.github.io/yemen-blood-bank-privacy/**
+**🔗 رابط السياسة على الويب: https://salehbagomri.github.io/quickchat-privacy/**
 
 ---
 
 ## 🇾🇪 النسخة العربية
 
 ### 1. المقدمة
-
-مرحباً بك في تطبيق بنك دم اليمن. نحن ملتزمون بحماية خصوصيتك وبياناتك الشخصية. توضح هذه السياسة كيفية جمع واستخدام وحماية معلوماتك عند استخدام التطبيق.
+مرحباً بك في تطبيق كويك شات (QuickChat). نحن ملتزمون التزاماً تاماً بحماية خصوصيتك وسرية تفاعلاتك. توضح هذه السياسة كيفية تعامل التطبيق مع بياناتك، وهو مصمم ليعمل بخصوصية كاملة دون أي حاجة لجمع أو تخزين بياناتك على أي خوادم سحابية خارجية.
 
 **تطوير وتصميم**: صالح باقمري
 **الموقع الإلكتروني**: www.bagomri.com
 **البريد الإلكتروني**: s.bagomri@gmail.com
-**واتساب**: [+967 770 727 055](https://wa.me/967770727055)
+**حساب الإنستغرام**: [@salehbagomri](https://instagram.com/salehbagomri)
 
-### 2. البيانات التي نجمعها
+### 2. البيانات التي نجمعها ونخزنها
+فلسفة تطبيق كويك شات هي **(الخصوصية أولاً)**. نحن لا نقوم بجمع أو طلب أي بيانات شخصية منك. جميع المعطيات تُحفظ محلياً على جهازك الشخصي فقط:
 
-#### 2.1 معلومات المتبرع
-عند تسجيل متبرع جديد، يتم جمع:
-- **الاسم الكامل**: لتحديد هوية المتبرع
-- **رقم الهاتف**: للتواصل معك عند الحاجة لتبرع (يمكن إضافة حتى 3 أرقام)
-- **فصيلة الدم**: لمطابقة المتبرعين مع المحتاجين
-- **المديرية**: لتحديد موقعك الجغرافي في اليمن
-- **الجنس**: لأغراض إحصائية وطبية
-- **العمر**: للتأكد من أهلية التبرع
-- **آخر تاريخ تبرع (اختياري)**: لضمان مرور الفترة الآمنة بين التبرعات
-- **ملاحظات (اختياري)**: أي معلومات إضافية
+#### 2.1 البيانات المحلية
+- **السجل الأخير (Recent History)**: أرقام الهواتف وتواريخ المحادثات التي قمت بفتحها عبر التطبيق، لتسهيل العودة إليها لاحقاً.
+- **قوالب الرسائل (Message Templates)**: الرسائل النصية الجاهزة التي تكتبها وتحفظها لتسهيل المراسلة السريعة.
+- **إعدادات التطبيق (App Settings)**: اختيارك للمظهر (فاتح/داكن) وتفضيلك الافتراضي لرمز الدولة.
 
 #### 2.2 بيانات الاستخدام
-- **تقارير الأخطاء التقنية**: من خلال Firebase Crashlytics لتحسين التطبيق
-- **البلاغات**: إذا قمت بالإبلاغ عن متبرع
+- **لا تحليلات ولا تتبع**: التطبيق لا يحتوي على أي برمجيات تتبع استخدام أو تحليلات سلوك المستخدمين.
+- **لا تقارير أخطاء شخصية**: لا نستخدم أي أدوات سحابية تجمع معلومات تعريفية عند حدوث خطأ بالتطبيق.
 
-**ملاحظة مهمة**: المستخدم العادي لا يحتاج إلى إنشاء حساب أو كلمة مرور لاستخدام التطبيق. الحسابات مخصصة فقط للمستشفيات والمسؤولين.
+**ملاحظة هامة**: لا يتطلب التطبيق تسجيل دخول أو إنشاء حساب أو كلمة مرور مطلقاً.
 
 ### 3. كيف نستخدم بياناتك
+تُستخدم البيانات المدخلة محلياً فقط لتوفير وظائف التطبيق الأساسية:
+- **توليد روابط المراسلة**: دمج رمز الدولة ورقم الهاتف لإنشاء الرابط المباشر الرسمي لواتساب (https://wa.me/...) وفتحه عبر تطبيق واتساب على جهازك.
+- **عرض السجل والقوالب**: لعرض وتسهيل وصولك وإدارتك للبيانات المحفوظة على هاتفك.
 
-نستخدم المعلومات التي نجمعها للأغراض التالية:
-
-#### 3.1 الغرض الأساسي
-- **ربط المتبرعين بالمحتاجين**: مطابقة فصائل الدم والموقع الجغرافي
-- **البحث عن متبرعين**: تمكين المستشفيات والمحتاجين من إيجاد متبرعين مناسبين (يُعرض المتبرعون المتاحون فقط)
-- **إدارة سجل التبرعات**: تتبع تواريخ التبرع السابقة
-
-#### 3.2 أغراض ثانوية
-- **تحسين الخدمة**: تحليل أنماط الاستخدام لتطوير التطبيق
-- **الدعم الفني**: مساعدتك في حل المشاكل التقنية
-- **الإحصائيات**: إنشاء تقارير إحصائية (بدون معلومات شخصية)
-
-### 4. تخزين البيانات
-
-#### 4.1 قاعدة البيانات
-- نستخدم **Supabase** كخدمة قاعدة بيانات سحابية آمنة
-- جميع البيانات مشفرة أثناء النقل (SSL/TLS)
-- الخوادم موجودة في مراكز بيانات آمنة ومعتمدة
-
-#### 4.2 تحليل الأخطاء
-- نستخدم **Firebase Crashlytics** لرصد الأخطاء التقنية
-- لا يتم جمع معلومات شخصية من خلال Crashlytics
-- البيانات المرسلة: نوع الجهاز، إصدار النظام، تقارير الأخطاء فقط
-
-#### 4.3 التخزين المحلي (وضع بدون إنترنت)
-- يحتفظ التطبيق بنسخة محلية مشفرة من البيانات على جهازك
-- تُستخدم فقط لتمكين البحث عن متبرعين بدون اتصال بالإنترنت
-- تُحدّث تلقائياً عند توفر الاتصال
+### 4. مكان تخزين البيانات وحمايتها
+- **تخزين محلي آمن**: تُخزن بيانات السجل وقوالب الرسائل على الذاكرة الداخلية لهاتفك الشخصي باستخدام قاعدة بيانات **Hive** المحلية المشفرة/المحمية بنظام تشغيل الجوال.
+- **لا خوادم سحابية**: لا يتصل التطبيق بأي خادم خارجي، وبالتالي لا تخرج بياناتك من هاتفك عبر الإنترنت مطلقاً.
 
 ### 5. مشاركة البيانات
+❌ **لا نبيع** بياناتك لأي طرف ثالث.
+❌ **لا نشارك** معلوماتك مع أي شبكات أو شركات إعلانية.
+❌ **لا نستخدم** بياناتك لأي أغراض تجارية.
+❌ **لا توجد إعلانات** في التطبيق على الإطلاق.
 
-#### 5.1 ما لا نفعله
-❌ **لا نبيع** بياناتك لأي طرف ثالث
-❌ **لا نشارك** معلوماتك الشخصية مع شركات إعلانات
-❌ **لا نستخدم** بياناتك لأغراض تجارية
-❌ **لا توجد إعلانات** في التطبيق على الإطلاق
+### 6. حقوقك والتحكم بالبيانات
+بما أن بياناتك مخزنة محلياً بالكامل، فإنك تملك كامل الصلاحيات لإدارتها ومسحها فورياً:
+- **المسح من التطبيق**: يمكنك حذف أي رقم من السجل، أو مسح السجل كاملاً، أو تعديل وحذف القوالب.
+- **المسح من إعدادات الهاتف**: يمكنك مسح جميع بيانات التطبيق نهائياً بالذهاب إلى إعدادات الهاتف ← التطبيقات ← QuickChat ← التخزين ← مسح البيانات.
+- **إلغاء التثبيت**: عند إلغاء تثبيت التطبيق من الهاتف، يتم مسح كافة البيانات المرتبطة به محلياً وتلقائياً.
 
-#### 5.2 المشاركة المحدودة
-✅ **مع المحتاجين للدم**: يمكن للباحثين عن متبرعين رؤية:
-   - اسمك
-   - رقم هاتفك
-   - فصيلة دمك
-   - مديريتك
+### 7. الأذونات المطلوبة
+- 🌐 **الاتصال بالإنترنت**: يطلب التطبيق إذن الإنترنت العام لتوجيهك وفتح روابط واتساب الرسمية.
 
-✅ **مع المستشفيات والمسؤولين (Admins)**: للإشراف على النظام وإدارة البلاغات
-
-### 6. أمان البيانات
-
-نتخذ إجراءات أمنية صارمة لحماية بياناتك:
-
-- 🔐 **التشفير**: جميع البيانات مشفرة أثناء النقل والتخزين
-- 🛡️ **المصادقة**: نظام تسجيل دخول آمن للمستشفيات والمسؤولين
-- 📱 **الأذونات**: التطبيق يطلب فقط إذن الإنترنت للاتصال بقاعدة البيانات
-- 🚨 **المراقبة**: مراقبة مستمرة للأنشطة المشبوهة
-
-### 7. حقوقك
-
-لديك الحق في:
-
-- **الوصول**: عرض بياناتك المخزنة في التطبيق
-- **التعديل**: طلب تحديث معلوماتك (عبر المستشفى أو المسؤول)
-- **الحذف**: طلب حذف بياناتك نهائياً
-
-**لممارسة هذه الحقوق**: اتصل بنا عبر s.bagomri@gmail.com أو عبر واتساب [+967 770 727 055](https://wa.me/967770727055)
-
-### 8. الأذونات المطلوبة
-
-التطبيق يطلب إذن واحد فقط:
-
-- 🌐 **الإنترنت**: للاتصال بقاعدة البيانات وعرض بيانات المتبرعين
-
-### 9. حماية الأطفال
-
-- التطبيق مخصص للبالغين (18 سنة فأكثر)
-- لا نجمع عمداً معلومات من الأطفال دون 18 سنة
-- إذا اكتشفنا تسجيل قاصر، سنحذف البيانات فوراً
-
-### 10. إخلاء المسؤولية
-
-هذا التطبيق أداة مساعدة لتسهيل التواصل بين المتبرعين والمحتاجين، ولا يُغني عن الاستشارة الطبية المتخصصة. يجب التأكد من الأهلية الطبية للتبرع من خلال الجهات الصحية المختصة.
-
-### 11. التحديثات
-
-- قد نقوم بتحديث هذه السياسة من وقت لآخر
-- سيتم إعلامك بأي تغييرات جوهرية عبر التطبيق
-- تاريخ آخر تحديث موضح في أعلى هذه الصفحة
-
-### 12. التطوير والدعم الفني
-
-إذا كان لديك أي أسئلة حول سياسة الخصوصية:
-
-- **تطوير وتصميم**: صالح باقمري
-- **البريد الإلكتروني**: s.bagomri@gmail.com
-- **واتساب**: [+967 770 727 055](https://wa.me/967770727055)
-- **الموقع**: www.bagomri.com
-- **العنوان**: حضرموت، اليمن
+### 8. إخلاء المسؤولية والتبعية لـ WhatsApp
+تطبيق كويك شات هو أداة مستقلة تماماً ومطورة من قبل مطور مستقل. لا توجد أي علاقة تبعية أو رعاية أو شراكة رسمية تجمع بين كويك شات وشركة **WhatsApp LLC** أو شركة **Meta Platforms, Inc.** أو أي من العلامات التجارية التابعة لها.
 
 ---
 
 ## 🇬🇧 English Version
 
 ### 1. Introduction
-
-Welcome to Yemen Blood Bank App. We are committed to protecting your privacy and personal data. This policy explains how we collect, use, and protect your information when using the app.
+Welcome to QuickChat. We are fully committed to protecting your privacy and security. This Privacy Policy explains how the app handles your data. QuickChat is designed to work with absolute privacy without collecting or storing any of your information on external cloud servers.
 
 **Developer**: Saleh Bagomri
 **Website**: www.bagomri.com
 **Email**: s.bagomri@gmail.com
-**WhatsApp**: [+967 770 727 055](https://wa.me/967770727055)
+**Instagram**: [@salehbagomri](https://instagram.com/salehbagomri)
 
-### 2. Data We Collect
+### 2. Data We Process & Store
+Our core philosophy is **(Privacy-First)**. We do not collect or request any personal data. All app data is stored exclusively on your local device:
 
-#### 2.1 Donor Information
-When registering a new donor, we collect:
-- **Full Name**: To identify the donor
-- **Phone Number**: To contact you when blood is needed (up to 3 numbers can be added)
-- **Blood Type**: To match donors with recipients
-- **District**: To determine your geographic location in Yemen
-- **Gender**: For statistical and medical purposes
-- **Age**: To verify donation eligibility
-- **Last Donation Date (Optional)**: To ensure safe interval between donations
-- **Notes (Optional)**: Any additional information
+#### 2.1 Local Data
+- **Recent History**: Phone numbers and timestamps of chats you opened through the app, stored locally for quick access.
+- **Message Templates**: Text templates you write and save for quick reuse.
+- **App Settings**: Your selected theme preference (light/dark) and your default country code selection.
 
 #### 2.2 Usage Data
-- **Technical Error Reports**: Through Firebase Crashlytics to improve the app
-- **Reports**: If you report a donor
+- **No Analytics / No Tracking**: The app does not include any analytics libraries or user behavior trackers.
+- **No Personal Crash Logs**: We do not collect personally identifiable crash details.
 
-**Important Note**: Regular users do not need to create an account or password to use the app. Accounts are only for hospitals and administrators.
+**Important Note**: QuickChat does not require any registration, account creation, or login.
 
 ### 3. How We Use Your Data
+Your locally input data is used only to power the core features of the application:
+- **Generating Chat Links**: Constructing the official WhatsApp direct API link (https://wa.me/...) and launching it on your device.
+- **Displaying Templates & History**: Allowing you to access, edit, and wipe your cached data inside the interface.
 
-We use the collected information for:
-
-#### 3.1 Primary Purpose
-- **Connect Donors with Recipients**: Match blood types and geographic location
-- **Search for Donors**: Enable hospitals and people in need to find suitable donors (only available donors are shown)
-- **Manage Donation Records**: Track previous donation dates
-
-#### 3.2 Secondary Purposes
-- **Service Improvement**: Analyze usage patterns to develop the app
-- **Technical Support**: Help you solve technical issues
-- **Statistics**: Create statistical reports (without personal information)
-
-### 4. Data Storage
-
-#### 4.1 Database
-- We use **Supabase** as a secure cloud database service
-- All data is encrypted during transmission (SSL/TLS)
-- Servers are located in secure, certified data centers
-
-#### 4.2 Error Analysis
-- We use **Firebase Crashlytics** to monitor technical errors
-- No personal information is collected through Crashlytics
-- Data sent: device type, OS version, error reports only
-
-#### 4.3 Local Storage (Offline Mode)
-- The app keeps an encrypted local copy of data on your device
-- Used only to enable donor search without internet connection
-- Automatically updated when connection is available
+### 4. Data Storage and Security
+- **Secure Local Storage**: Recent history and templates are stored locally using <strong>Hive</strong>, a fast, lightweight NoSQL database, secured by your device's operating system.
+- **No Cloud Database**: The app does not connect to any external cloud database, ensuring your data never leaves your device over the internet.
 
 ### 5. Data Sharing
+❌ **We do not sell** your data to any third party.
+❌ **We do not share** your personal info with advertising companies.
+❌ **We do not use** your data for commercial purposes.
+❌ **No advertisements** are included in the app.
 
-#### 5.1 What We Don't Do
-❌ **We don't sell** your data to any third party
-❌ **We don't share** your personal information with advertising companies
-❌ **We don't use** your data for commercial purposes
-❌ **No advertisements** in the app at all
+### 6. User Rights & Data Control
+Since your data resides entirely on your device, you hold absolute control:
+- **Delete from App**: You can clear individual entries, the entire history log, or your templates directly in the app.
+- **Wipe from System Settings**: You can clear all app data under Settings -> Apps -> QuickChat -> Storage -> Clear Data.
+- **Uninstall**: Uninstalling the app automatically and permanently wipes all local cached database files from your device.
 
-#### 5.2 Limited Sharing
-✅ **With blood recipients**: Those searching for donors can see:
-   - Your name
-   - Your phone number
-   - Your blood type
-   - Your district
+### 7. Required Permissions
+- 🌐 **Internet**: Required by the mobile OS to launch and redirect to official WhatsApp Web/API links.
 
-✅ **With Hospitals and Admins**: For system supervision and report management
-
-### 6. Data Security
-
-We implement strict security measures to protect your data:
-
-- 🔐 **Encryption**: All data encrypted during transmission and storage
-- 🛡️ **Authentication**: Secure login system for hospitals and administrators
-- 📱 **Permissions**: The app only requests Internet permission to connect to the database
-- 🚨 **Monitoring**: Continuous monitoring for suspicious activities
-
-### 7. Your Rights
-
-You have the right to:
-
-- **Access**: View your stored data in the app
-- **Modify**: Request update of your information (through hospital or admin)
-- **Delete**: Request permanent deletion of your data
-
-**To exercise these rights**: Contact us at s.bagomri@gmail.com or via WhatsApp [+967 770 727 055](https://wa.me/967770727055)
-
-### 8. Required Permissions
-
-The app requests only one permission:
-
-- 🌐 **Internet**: To connect to the database and display donor information
-
-### 9. Children's Protection
-
-- The app is designed for adults (18 years and older)
-- We do not knowingly collect information from children under 18
-- If we discover a minor's registration, we will delete the data immediately
-
-### 10. Disclaimer
-
-This app is a support tool to facilitate communication between donors and recipients. It does not replace professional medical advice. Donation eligibility must be confirmed through qualified health authorities.
-
-### 11. Updates
-
-- We may update this policy from time to time
-- You will be notified of any material changes through the app
-- Last update date is shown at the top of this page
-
-### 12. Development & Technical Support
-
-If you have any questions about the privacy policy:
-
-- **Developer**: Saleh Bagomri
-- **Email**: s.bagomri@gmail.com
-- **WhatsApp**: [+967 770 727 055](https://wa.me/967770727055)
-- **Website**: www.bagomri.com
-- **Address**: Hadhramout, Yemen
+### 8. Disclaimer & WhatsApp Affiliation
+QuickChat is an independent utility tool. It is not affiliated, associated, authorized, endorsed by, or in any way officially connected with **WhatsApp LLC**, **Meta Platforms, Inc.**, or any of their registered trademarks.
 
 ---
 
-## 📋 Technical Details
+**Version**: 1.0.0
+**Effective Date**: June 2026
+**App Version**: 1.0.0
 
-### Services Used
-
-1. **Supabase** (Database & Authentication)
-   - Purpose: Store donor data and manage hospital/admin authentication
-   - Data location: Cloud servers
-   - Security: SSL/TLS encryption, Row Level Security (RLS)
-   - Website: https://supabase.com
-
-2. **Firebase Crashlytics** (Error Reporting)
-   - Purpose: Monitor app crashes and technical errors
-   - Data collected: Device info, OS version, crash logs
-   - No personal information collected
-   - Website: https://firebase.google.com
-
-3. **Hive** (Local Encrypted Storage)
-   - Purpose: Cache donor data locally for offline access
-   - Data location: On the user's device only
-   - Security: Encrypted local storage
-
-### Data Retention
-
-- **Active donors**: Data retained while listed in the system
-- **Inactive records**: Data may be deleted after 2 years of inactivity
-- **Deleted records**: Data permanently deleted within 30 days
-- **Backups**: Deleted data removed from backups within 90 days
-
-### Compliance
-
-This app complies with:
-- GDPR principles (where applicable)
-- Google Play Store policies
-- Yemen data protection regulations
-
----
-
-## 🔒 Your Consent
-
-By using Yemen Blood Bank App, you consent to:
-- Collection of data as described in this policy
-- Use of your data for the purposes mentioned
-- Storage of your data on Supabase servers
-- Sharing your contact info with blood recipients
-
-You can withdraw consent at any time by requesting data deletion.
-
----
-
-**Version**: 1.2
-**Effective Date**: April 20, 2026
-**App Version**: 1.0.3
-
----
-
-بنك دم اليمن 2026 © - جميع الحقوق محفوظة
-
-💙 **صُنع بحب لأهالي اليمن - Made with love for the people of Yemen**
+كويك شات 2026 © - جميع الحقوق محفوظة - All Rights Reserved
+صُنع بحب في اليمن - Made with love in Yemen
