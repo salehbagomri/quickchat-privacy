@@ -3,265 +3,473 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>معايير سلامة الأطفال - QuickChat</title>
+    <meta name="description" content="معايير سلامة الأطفال لتطبيق كويك شات - Child Safety Standards for QuickChat App">
+    <meta name="author" content="Saleh Bagomri">
+    <title>معايير سلامة الأطفال - كويك شات | Child Safety Standards - QuickChat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        :root {
+            --primary-color: #075E54;
+            --secondary-color: #54656f;
+            --accent-color: #128C7E;
+            --accent-hover: #075E54;
+            --border-color: #e2e8f0;
+            --bg-color: #f4f7f6;
+            --surface-color: #ffffff;
+            --text-color: #111b21;
+            --sidebar-width: 240px;
         }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
             line-height: 1.8;
-            color: #333;
-            background: #f5f5f5;
-            padding: 20px;
+            -webkit-font-smoothing: antialiased;
         }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        .layout-wrapper { max-width: 1100px; margin: 0 auto; padding: 60px 24px; }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 32px;
+            margin-bottom: 48px;
+            gap: 20px;
         }
-
-        h1 {
-            color: #25D366;
-            margin-bottom: 10px;
-            font-size: 2.5em;
-            text-align: center;
+        .header-title h1 { font-size: 28px; font-weight: 700; color: var(--primary-color); margin-bottom: 6px; }
+        .header-title p { font-size: 14px; color: var(--secondary-color); }
+        .language-toggle {
+            display: inline-flex;
+            background: #e9ebea;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 3px;
+            flex-shrink: 0;
         }
-
-        .subtitle {
-            text-align: center;
-            color: #666;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 5px;
-            border-right: 4px solid #25D366;
+        .language-toggle button {
+            background: transparent;
+            color: var(--secondary-color);
+            border: none;
+            padding: 6px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s;
+            font-family: inherit;
         }
-
-        h2 {
-            color: #25D366;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-            border-bottom: 2px solid #25D366;
-            padding-bottom: 10px;
+        .language-toggle button.active {
+            background: var(--surface-color);
+            color: var(--primary-color);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
         }
-
-        h3 {
-            color: #128C7E;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.4em;
-        }
-
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-
-        ul {
-            margin: 20px 0;
-            padding-right: 30px;
-        }
-
-        li {
-            margin-bottom: 10px;
-            line-height: 1.6;
-        }
-
-        .highlight {
-            background: #E8F5E9;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
-            border-right: 4px solid #25D366;
-        }
-
-        .important {
-            background: #FFF3E0;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
-            border-right: 4px solid #FF9800;
-        }
-
-        .contact {
-            background: #E3F2FD;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
-            border-right: 4px solid #2196F3;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #666;
-            font-size: 0.9em;
-        }
-
-        a {
-            color: #25D366;
+        .main-layout { display: flex; gap: 48px; }
+        .sidebar { width: var(--sidebar-width); position: sticky; top: 40px; height: fit-content; flex-shrink: 0; }
+        .sidebar-nav { display: flex; flex-direction: column; gap: 4px; border-right: 2px solid var(--border-color); }
+        [dir="ltr"] .sidebar-nav { border-right: none; border-left: 2px solid var(--border-color); }
+        .sidebar-nav a {
+            color: var(--secondary-color);
             text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 16px;
+            transition: all 0.2s;
+            border-right: 2px solid transparent;
+            margin-right: -2px;
+            text-align: right;
+            display: block;
         }
-
-        a:hover {
-            text-decoration: underline;
+        [dir="ltr"] .sidebar-nav a {
+            border-right: none;
+            border-left: 2px solid transparent;
+            margin-right: 0;
+            margin-left: -2px;
+            text-align: left;
         }
-
-        .check {
-            color: #25D366;
-            font-weight: bold;
+        .sidebar-nav a:hover { color: var(--primary-color); }
+        .sidebar-nav a.active { color: var(--accent-color); border-right-color: var(--accent-color); font-weight: 600; }
+        [dir="ltr"] .sidebar-nav a.active { border-left-color: var(--accent-color); }
+        .content-area { flex-grow: 1; max-width: 780px; }
+        .section { margin-bottom: 56px; scroll-margin-top: 40px; }
+        .section h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 18px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
         }
-
-        .cross {
-            color: #f44336;
-            font-weight: bold;
+        .section h3 { font-size: 15px; font-weight: 600; color: var(--primary-color); margin: 24px 0 10px; }
+        .section p { margin-bottom: 16px; font-size: 14px; color: var(--text-color); text-align: justify; }
+        .section ul { list-style: none; margin-bottom: 20px; }
+        .section ul li {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: var(--text-color);
+            position: relative;
+            padding-right: 18px;
         }
-
+        [dir="ltr"] .section ul li { padding-right: 0; padding-left: 18px; }
+        .section ul li::before { content: "•"; color: var(--accent-color); position: absolute; right: 0; top: 0; font-weight: bold; }
+        [dir="ltr"] .section ul li::before { right: auto; left: 0; }
+        .section ul li strong { color: var(--primary-color); }
+        .callout-box { background: #fafafa; border: 1px solid var(--border-color); border-radius: 8px; padding: 24px; margin: 24px 0; }
+        .callout-box h3 { margin-top: 0; font-size: 14px; font-weight: 600; color: var(--primary-color); margin-bottom: 12px; }
+        .callout-box ul { margin-bottom: 0; }
+        .callout-box p { font-size: 14px; color: var(--text-color); margin-bottom: 12px; }
+        .callout-box p:last-child { margin-bottom: 0; }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 20px; }
+        .contact-item { background: #fafafa; border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; }
+        .contact-item-label { font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--secondary-color); margin-bottom: 6px; letter-spacing: 0.5px; }
+        .contact-item-value { font-size: 14px; color: var(--primary-color); font-weight: 500; word-break: break-all; }
+        .contact-item-value a { color: var(--accent-color); text-decoration: none; }
+        .contact-item-value a:hover { text-decoration: underline; }
+        .footer { border-top: 1px solid var(--border-color); padding: 40px 0; margin-top: 80px; text-align: center; font-size: 13px; color: var(--secondary-color); }
+        .footer p { margin-bottom: 6px; }
+        .footer a { color: var(--accent-color); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        .en { display: none; }
         @media (max-width: 768px) {
-            .container {
-                padding: 20px;
+            .layout-wrapper { padding: 24px 16px; }
+            .header { flex-direction: column; align-items: stretch; gap: 16px; margin-bottom: 24px; padding-bottom: 20px; }
+            .main-layout { flex-direction: column; gap: 24px; }
+            .sidebar {
+                width: 100%;
+                position: sticky;
+                top: 0;
+                background-color: var(--bg-color);
+                z-index: 100;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                margin-top: -12px;
+                border-bottom: 1px solid var(--border-color);
             }
-
-            h1 {
-                font-size: 2em;
+            .sidebar-nav {
+                border-right: none;
+                border-left: none;
+                border-bottom: none;
+                flex-direction: row;
+                overflow-x: auto;
+                padding-bottom: 0;
+                gap: 8px;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
             }
-
-            h2 {
-                font-size: 1.5em;
-            }
+            .sidebar-nav::-webkit-scrollbar { display: none; }
+            .sidebar-nav a { border-right: none; border-bottom: 2px solid transparent; margin-right: 0; padding: 6px 14px; white-space: nowrap; text-align: center; font-size: 13px; }
+            [dir="ltr"] .sidebar-nav a { border-left: none; margin-left: 0; text-align: center; }
+            .sidebar-nav a.active { border-right-color: transparent; border-bottom-color: var(--accent-color); }
+            .section { scroll-margin-top: 72px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🛡️ معايير سلامة الأطفال</h1>
-        <h1 style="font-size: 1.8em; margin-top: 10px;">QuickChat - كويك شات</h1>
-
-        <div class="subtitle">
-            <strong>تطبيق QuickChat</strong> هو أداة مساعدة لفتح تطبيق WhatsApp مباشرة دون الحاجة لحفظ الأرقام.
-            التطبيق <strong>لا يوفر أي ميزات للمحادثة أو التواصل المباشر</strong> بين المستخدمين.
+    <div class="layout-wrapper">
+        <div class="header">
+            <div class="header-title" id="arabicHeaderTitle">
+                <h1>كويك شات</h1>
+                <p>تطبيق المراسلة المباشرة لواتساب — معايير سلامة الأطفال</p>
+                <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">آخر تحديث: يونيو 2026</p>
+            </div>
+            <div class="header-title en" id="englishHeaderTitle">
+                <h1>QuickChat</h1>
+                <p>Direct WhatsApp Messenger — Child Safety Standards</p>
+                <p style="font-size: 12px; margin-top: 6px; color: var(--secondary-color);">Last Updated: June 2026</p>
+            </div>
+            <div class="language-toggle">
+                <button id="btnArabic" class="active" onclick="showArabic()">العربية</button>
+                <button id="btnEnglish" onclick="showEnglish()">English</button>
+            </div>
         </div>
 
-        <h2>🛡️ سياسة حماية الأطفال</h2>
+        <div class="main-layout">
+            <aside class="sidebar" id="arabicSidebar">
+                <nav class="sidebar-nav">
+                    <a href="#ar-intro" class="active">المقدمة</a>
+                    <a href="#ar-nature">طبيعة التطبيق والخصوصية</a>
+                    <a href="#ar-commitments">التزامات حماية الأطفال</a>
+                    <a href="#ar-compliance">الامتثال للقوانين</a>
+                    <a href="#ar-responsibility">المسؤولية وإخلاء الطرف</a>
+                    <a href="#ar-contact">الاتصال بنا</a>
+                </nav>
+            </aside>
 
-        <h3>1. طبيعة التطبيق</h3>
-        <p><strong>QuickChat</strong> هو تطبيق أداة مساعدة (Utility Tool) وليس منصة تواصل اجتماعي:</p>
+            <aside class="sidebar en" id="englishSidebar">
+                <nav class="sidebar-nav">
+                    <a href="#en-intro">Introduction</a>
+                    <a href="#en-nature">App Nature & Privacy</a>
+                    <a href="#en-commitments">Safety Commitments</a>
+                    <a href="#en-compliance">Legal Compliance</a>
+                    <a href="#en-responsibility">Responsibility Disclaimer</a>
+                    <a href="#en-contact">Contact Us</a>
+                </nav>
+            </aside>
 
-        <div class="highlight">
-            <ul>
-                <li><span class="check">✓</span> <strong>لا يوجد محتوى من المستخدمين:</strong> التطبيق لا يسمح بإنشاء أو مشاركة أي محتوى</li>
-                <li><span class="check">✓</span> <strong>لا توجد ميزات دردشة:</strong> التطبيق يفتح WhatsApp الخارجي فقط</li>
-                <li><span class="check">✓</span> <strong>لا يوجد تفاعل بين المستخدمين:</strong> لا يمكن للمستخدمين التواصل مع بعضهم داخل التطبيق</li>
-                <li><span class="check">✓</span> <strong>لا يوجد تخزين سحابي:</strong> جميع البيانات محلية على جهاز المستخدم</li>
-                <li><span class="check">✓</span> <strong>لا توجد ملفات شخصية:</strong> لا يمكن إنشاء حسابات أو ملفات تعريف</li>
-            </ul>
+            <div class="content-area">
+                <!-- Arabic Version -->
+                <div class="content ar" id="arabicContent">
+                    <div class="section" id="ar-intro">
+                        <h2>المقدمة</h2>
+                        <p>نحن في <strong>كويك شات (QuickChat)</strong> نلتزم التزاماً كاملاً بتوفير بيئة آمنة لجميع المستخدمين والامتثال للمعايير الأخلاقية والقانونية لحماية الأطفال وسلامتهم عبر الإنترنت. توضح هذه الصفحة معاييرنا وكيف تم تصميم التطبيق تقنياً لضمان عدم وجود أي تهديدات أو محتوى ضار بالأطفال.</p>
+                    </div>
+
+                    <div class="section" id="ar-nature">
+                        <h2>طبيعة التطبيق والخصوصية المحلية</h2>
+                        <p>تطبيق كويك شات هو أداة مساعدة (Utility Tool) لفتح تطبيق واتساب الخارجي مباشرة دون حفظ الأرقام، وليس شبكة اجتماعية أو منصة لمشاركة المحتوى:</p>
+                        <div class="callout-box">
+                            <ul>
+                                <li><strong>لا تواصل بين المستخدمين:</strong> لا يمكن للمستخدمين التفاعل أو التواصل مع بعضهم البعض داخل تطبيق كويك شات.</li>
+                                <li><strong>لا يوجد محتوى ينشئه المستخدم:</strong> لا يحتوي التطبيق على ميزات لنشر النصوص، أو رفع الصور، أو مشاركة الفيديوهات أو الوسائط.</li>
+                                <li><strong>لا تخزين سحابي:</strong> جميع تفضيلات التطبيق وسجلات الأرقام تظل محفوظة محلياً على جهاز المستخدم فقط ولا تُرفع إلى أي خادم خارجي.</li>
+                                <li><strong>لا حسابات أو ملفات شخصية:</strong> لا توجد أي ميزة لإنشاء حسابات مستخدمين أو ملفات تعريفية عامة.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section" id="ar-commitments">
+                        <h2>التزاماتنا بحماية الأطفال</h2>
+                        <ul>
+                            <li><strong>عدم استهداف القاصرين:</strong> تطبيق كويك شات أداة عامة ومحايدة، وليس مصمماً أو موجهاً لجذب الأطفال أو القاصرين دون سن 13 عاماً.</li>
+                            <li><strong>خالٍ من المحتوى الضار:</strong> لا يعرض التطبيق أي إعلانات، أو روابط خارجية مشبوهة، أو وسائط غير أخلاقية، ما يجعله آمناً تماماً للاستخدام العائلي.</li>
+                            <li><strong>حظر المحتوى غير المصرّح به:</strong> نظراً لأن التطبيق لا يملك أي منصة تواصل أو دردشة، فإنه لا توجد فرصة لنشر محتوى ينطوي على استغلال الأطفال أو إيذائهم.</li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="ar-compliance">
+                        <h2>الامتثال للقوانين والأنظمة</h2>
+                        <p>يلتزم تطبيق كويك شات بالقوانين واللوائح الدولية المعتمدة لحماية الأطفال وخصوصيتهم على الإنترنت، ومنها:</p>
+                        <ul>
+                            <li>قانون حماية خصوصية الأطفال على الإنترنت (COPPA).</li>
+                            <li>المبادئ العامة لحماية البيانات (GDPR).</li>
+                            <li>قوانين مكافحة الاعتداء الجنسي على الأطفال واستغلالهم عبر الإنترنت (CSAE).</li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="ar-responsibility">
+                        <h2>المسؤولية وإخلاء الطرف</h2>
+                        <div class="callout-box">
+                            <p><strong>تنبيه هام:</strong> تطبيق كويك شات هو مجرد أداة لتوليد روابط المراسلة وتوجيهك لفتح محادثة واتساب الرسمية. تحدث جميع المحادثات وتناقل الرسائل والوسائط بالكامل داخل تطبيق <strong>WhatsApp</strong> الخارجي الرسمي.</p>
+                            <p>تخضع الدردشات لسياسات السلامة والخصوصية والأمان المطبقة من قبل شركة <strong>WhatsApp LLC</strong>. للإبلاغ عن أي محتوى ضار أو إزعاج داخل محادثة واتساب، يرجى استخدام أدوات الإبلاغ المدمجة في تطبيق واتساب نفسه أو مراجعة <a href="https://faq.whatsapp.com/" target="_blank">مركز مساعدة واتساب الرسمي</a>.</p>
+                        </div>
+                    </div>
+
+                    <div class="section" id="ar-contact">
+                        <h2>الاتصال بنا</h2>
+                        <p>لأي استفسار أو شكوى بخصوص الخصوصية، يُرجى التواصل معنا عبر القنوات التالية:</p>
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <div class="contact-item-label">البريد الإلكتروني / الدعم الفني</div>
+                                <div class="contact-item-value"><a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-label">الدعم عبر الواتساب</div>
+                                <div class="contact-item-value"><a href="https://wa.me/967770727055" dir="ltr">+967 770727055</a></div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-label">الموقع الإلكتروني</div>
+                                <div class="contact-item-value"><a href="https://www.bagomri.com" target="_blank">www.bagomri.com</a></div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-label">العنوان</div>
+                                <div class="contact-item-value">حضرموت، الجمهورية اليمنية</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English Version -->
+                <div class="content en" id="englishContent">
+                    <div class="section" id="en-intro">
+                        <h2>Introduction</h2>
+                        <p>At <strong>QuickChat</strong>, we are fully committed to providing a safe environment for all users and complying with ethical and legal standards regarding child safety and online protection. This page explains our standards and how our app is engineered to ensure there are no threats or harmful content facing children.</p>
+                    </div>
+
+                    <div class="section" id="en-nature">
+                        <h2>App Nature & Local Privacy</h2>
+                        <p>QuickChat is a helper utility tool designed to open the external WhatsApp application directly without saving phone numbers; it is not a social network or content-sharing platform:</p>
+                        <div class="callout-box">
+                            <ul>
+                                <li><strong>No Social Interaction:</strong> Users cannot interact, chat, or associate with each other inside the QuickChat application.</li>
+                                <li><strong>No User-Generated Content:</strong> The app has no features to post texts, upload images, or share videos/media files.</li>
+                                <li><strong>100% Local Storage:</strong> All app history logs and custom templates are stored locally on your device only and are never uploaded to remote servers.</li>
+                                <li><strong>No User Profiles:</strong> There is no capability to create accounts or public user profiles.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section" id="en-commitments">
+                        <h2>Safety Commitments</h2>
+                        <ul>
+                            <li><strong>Not Targeting Minors:</strong> QuickChat is a neutral utility app and is not designed or intended to attract children or minors under the age of 13.</li>
+                            <li><strong>Free from Harmful Content:</strong> The app displays no advertisements, external suspicious links, or unethical media, making it completely safe for family use.</li>
+                            <li><strong>Preventing Abuse:</strong> Since the app lacks any messaging client or social features, there is zero opportunity to distribute or publish child exploitation materials or harmful communications.</li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="en-compliance">
+                        <h2>Legal Compliance</h2>
+                        <p>QuickChat complies with international laws and frameworks dedicated to child protection online, including:</p>
+                        <ul>
+                            <li>Children's Online Privacy Protection Act (COPPA).</li>
+                            <li>General Data Protection Regulation (GDPR).</li>
+                            <li>Child Sexual Abuse and Exploitation (CSAE) prevention laws.</li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="en-responsibility">
+                        <h2>Responsibility Disclaimer</h2>
+                        <div class="callout-box">
+                            <p><strong>Important Note:</strong> QuickChat is merely a link-generator tool to help you redirect to the official WhatsApp messaging app. All actual conversations, text exchanges, and media transfers happen exclusively within the external official <strong>WhatsApp</strong> application.</p>
+                            <p>Chats are governed by the safety, security, and privacy policies enforced by <strong>WhatsApp LLC</strong>. To report harmful content or harassment inside a WhatsApp chat, please use WhatsApp's built-in reporting features or visit the official <a href="https://faq.whatsapp.com/" target="_blank">WhatsApp Help Center</a>.</p>
+                        </div>
+                    </div>
+
+                    <div class="section" id="en-contact">
+                        <h2>Contact Us</h2>
+                        <p>For any inquiries or complaints regarding privacy, please contact us through the following channels:</p>
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <div class="contact-item-label">Email / Technical Support</div>
+                                <div class="contact-item-value"><a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-label">WhatsApp Support</div>
+                                <div class="contact-item-value"><a href="https://wa.me/967770727055" dir="ltr">+967 770727055</a></div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-label">Website</div>
+                                <div class="contact-item-value"><a href="https://www.bagomri.com" target="_blank">www.bagomri.com</a></div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-label">Address</div>
+                                <div class="contact-item-value">Hadhramout, Republic of Yemen</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <h3>2. الوظيفة الوحيدة للتطبيق</h3>
-        <p>QuickChat يقوم بـ:</p>
-        <ol>
-            <li>السماح للمستخدم بإدخال رقم هاتف</li>
-            <li>فتح تطبيق WhatsApp الرسمي المثبت على الجهاز</li>
-            <li>حفظ سجل محلي للأرقام المستخدمة (على الجهاز فقط)</li>
-        </ol>
-
-        <div class="important">
-            <strong>⚠️ مهم:</strong> التطبيق لا يتحكم في أي محتوى يتم تبادله عبر WhatsApp، حيث أن WhatsApp هو المسؤول الكامل عن سياسات الأمان والخصوصية الخاصة به.
+        <div class="footer" id="arabicFooter">
+            <p>إصدار التطبيق: 1.0.0</p>
+            <p>آخر تحديث: يونيو 2026</p>
+            <p>كويك شات — تطبيق المراسلة المباشرة لواتساب</p>
+            <p><a href="index.html">سياسة الخصوصية</a> | <a href="terms.html">شروط الاستخدام</a> | <a href="delete-account.html">حذف البيانات</a></p>
+            <p style="margin-top: 20px;">&copy; 2026 Saleh Bagomri - جميع الحقوق محفوظة</p>
         </div>
 
-        <h2>📋 التزامات QuickChat</h2>
-
-        <h3>1. عدم استهداف الأطفال</h3>
-        <ul>
-            <li>التطبيق ليس موجهاً للأطفال دون سن 13 عاماً</li>
-            <li>التطبيق لا يجمع أي بيانات شخصية من المستخدمين</li>
-            <li>التصنيف العمري: Everyone (الجميع) - أداة عامة</li>
-        </ul>
-
-        <h3>2. عدم وجود محتوى قابل للإبلاغ</h3>
-        <p>نظراً لأن التطبيق:</p>
-        <ul>
-            <li>لا يحتوي على ميزات دردشة أو تواصل</li>
-            <li>لا يسمح بتحميل أو مشاركة محتوى</li>
-            <li>لا يوجد تفاعل بين المستخدمين</li>
-        </ul>
-
-        <p><strong>فإنه لا توجد آلية مطلوبة للإبلاغ عن محتوى ضار</strong>، حيث أن التطبيق لا ينتج أو يستضيف أي محتوى.</p>
-
-        <h3>3. الامتثال للقوانين</h3>
-        <p>QuickChat يلتزم بجميع القوانين المحلية والدولية المتعلقة بحماية الأطفال، بما في ذلك:</p>
-        <ul>
-            <li>قانون حماية خصوصية الأطفال على الإنترنت (COPPA)</li>
-            <li>اللائحة العامة لحماية البيانات (GDPR)</li>
-            <li>قوانين مكافحة الاعتداء الجنسي على الأطفال واستغلالهم (CSAE)</li>
-        </ul>
-
-        <h2>🔒 سياسة الخصوصية والأمان</h2>
-
-        <h3>البيانات المحفوظة محلياً فقط:</h3>
-        <ul>
-            <li>أرقام الهواتف (محفوظة محلياً على الجهاز)</li>
-            <li>قوالب الرسائل (محفوظة محلياً على الجهاز)</li>
-            <li>إعدادات التطبيق (محفوظة محلياً على الجهاز)</li>
-        </ul>
-
-        <h3>لا يتم جمع:</h3>
-        <div class="highlight">
-            <ul>
-                <li><span class="cross">✗</span> معلومات شخصية</li>
-                <li><span class="cross">✗</span> بيانات الموقع الجغرافي</li>
-                <li><span class="cross">✗</span> صور أو ملفات وسائط</li>
-                <li><span class="cross">✗</span> جهات الاتصال</li>
-                <li><span class="cross">✗</span> رسائل المحادثات</li>
-            </ul>
-        </div>
-
-        <h2>📞 معلومات الاتصال</h2>
-
-        <div class="contact">
-            <p>للاستفسارات المتعلقة بسلامة الأطفال أو الإبلاغ عن مخاوف:</p>
-            <p><strong>البريد الإلكتروني:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
-            <p><strong>المطور:</strong> Saleh Bagomri</p>
-            <p><strong>Instagram:</strong> <a href="https://instagram.com/salehbagomri" target="_blank">@salehbagomri</a></p>
-        </div>
-
-        <h2>⚖️ المسؤولية</h2>
-
-        <div class="important">
-            <p><strong>مهم:</strong> QuickChat هو مجرد أداة لفتح تطبيق WhatsApp. جميع المحادثات والمحتوى المتبادل يتم عبر تطبيق WhatsApp الرسمي، والذي لديه سياساته الخاصة لحماية الأطفال والإبلاغ عن المحتوى الضار.</p>
-
-            <p>للإبلاغ عن محتوى ضار في WhatsApp، يُرجى استخدام آليات الإبلاغ الخاصة بـ WhatsApp:</p>
-            <ul>
-                <li>مركز مساعدة WhatsApp: <a href="https://faq.whatsapp.com/" target="_blank">https://faq.whatsapp.com/</a></li>
-                <li>الإبلاغ عن محتوى: داخل تطبيق WhatsApp</li>
-            </ul>
-        </div>
-
-        <h2>🔄 التحديثات</h2>
-        <p><strong>تاريخ آخر تحديث:</strong> 11 نوفمبر 2025</p>
-        <p>سيتم تحديث هذه المعايير حسب الحاجة لتعكس أي تغييرات في وظيفة التطبيق أو المتطلبات القانونية.</p>
-
-        <h2>📧 للتواصل</h2>
-        <p>إذا كانت لديك أي أسئلة أو مخاوف بخصوص هذه المعايير، يُرجى التواصل معنا على:</p>
-        <p><strong>Email:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
-        <p>نحن ملتزمون بتوفير بيئة آمنة ومحترمة لجميع المستخدمين.</p>
-
-        <div class="footer">
-            <p><em>QuickChat - أداة بسيطة وآمنة لفتح WhatsApp مباشرة</em></p>
-            <p>© 2025 Saleh Bagomri. All rights reserved.</p>
+        <div class="footer en" id="englishFooter">
+            <p>App Version: 1.0.0</p>
+            <p>Last Updated: June 2026</p>
+            <p>QuickChat — Direct WhatsApp Messenger</p>
+            <p><a href="index.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a> | <a href="delete-account.html">Data Deletion</a></p>
+            <p style="margin-top: 20px;">&copy; 2026 Saleh Bagomri - All Rights Reserved</p>
         </div>
     </div>
+
+    <script>
+        function showArabic() {
+            document.getElementById('arabicContent').style.display = 'block';
+            document.getElementById('englishContent').style.display = 'none';
+            document.getElementById('arabicSidebar').style.display = 'block';
+            document.getElementById('englishSidebar').style.display = 'none';
+            document.getElementById('arabicHeaderTitle').style.display = 'block';
+            document.getElementById('englishHeaderTitle').style.display = 'none';
+            document.getElementById('arabicFooter').style.display = 'block';
+            document.getElementById('englishFooter').style.display = 'none';
+
+            document.getElementById('btnArabic').classList.add('active');
+            document.getElementById('btnEnglish').classList.remove('active');
+            document.body.setAttribute('dir', 'rtl');
+            document.documentElement.setAttribute('lang', 'ar');
+            updateActiveLinkOnLanguageChange();
+        }
+
+        function showEnglish() {
+            document.getElementById('arabicContent').style.display = 'none';
+            document.getElementById('englishContent').style.display = 'block';
+            document.getElementById('arabicSidebar').style.display = 'none';
+            document.getElementById('englishSidebar').style.display = 'block';
+            document.getElementById('arabicHeaderTitle').style.display = 'none';
+            document.getElementById('englishHeaderTitle').style.display = 'block';
+            document.getElementById('arabicFooter').style.display = 'none';
+            document.getElementById('englishFooter').style.display = 'block';
+
+            document.getElementById('btnArabic').classList.remove('active');
+            document.getElementById('btnEnglish').classList.add('active');
+            document.body.setAttribute('dir', 'ltr');
+            document.documentElement.setAttribute('lang', 'en');
+            updateActiveLinkOnLanguageChange();
+        }
+
+        const observerOptions = { root: null, rootMargin: '-10% 0px -70% 0px', threshold: 0 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    if (id) {
+                        const isRtl = document.body.getAttribute('dir') === 'rtl';
+                        const prefix = isRtl ? 'ar-' : 'en-';
+                        if (!id.startsWith(prefix)) return;
+                        const activeSidebar = isRtl ? 'arabicSidebar' : 'englishSidebar';
+                        document.querySelectorAll(`#${activeSidebar} .sidebar-nav a`).forEach(a => a.classList.remove('active'));
+                        const currentLink = document.querySelector(`#${activeSidebar} .sidebar-nav a[href="#${id}"]`);
+                        if (currentLink) {
+                            currentLink.classList.add('active');
+                            if (window.innerWidth <= 768) {
+                                currentLink.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                            }
+                        }
+                    }
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.section').forEach(section => observer.observe(section));
+
+        function updateActiveLinkOnLanguageChange() {
+            const isRtl = document.body.getAttribute('dir') === 'rtl';
+            const prefix = isRtl ? 'ar-' : 'en-';
+            const activeSidebar = isRtl ? 'arabicSidebar' : 'englishSidebar';
+            const sections = Array.from(document.querySelectorAll('.section')).filter(s => s.id.startsWith(prefix));
+            let currentSection = sections[0];
+            let minDiff = Infinity;
+            sections.forEach(s => {
+                const rect = s.getBoundingClientRect();
+                const diff = Math.abs(rect.top);
+                if (diff < minDiff) { minDiff = diff; currentSection = s; }
+            });
+            if (currentSection) {
+                const id = currentSection.getAttribute('id');
+                document.querySelectorAll('.sidebar-nav a').forEach(a => a.classList.remove('active'));
+                const currentLink = document.querySelector(`#${activeSidebar} .sidebar-nav a[href="#${id}"]`);
+                if (currentLink) {
+                    currentLink.classList.add('active');
+                    if (window.innerWidth <= 768) {
+                        currentLink.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                    }
+                }
+            }
+        }
+
+        document.querySelectorAll('.sidebar-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                    const isRtl = document.body.getAttribute('dir') === 'rtl';
+                    const activeSidebar = isRtl ? 'arabicSidebar' : 'englishSidebar';
+                    document.querySelectorAll(`#${activeSidebar} .sidebar-nav a`).forEach(a => a.classList.remove('active'));
+                    this.classList.add('active');
+                }
+            });
+        });
+
+        showArabic();
+    </script>
 </body>
 </html>
-

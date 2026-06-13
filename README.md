@@ -11,6 +11,7 @@
 👉 **[سياسة الخصوصية - Privacy Policy](index.html)**
 👉 **[شروط الاستخدام - Terms of Use](terms.html)**
 👉 **[حذف البيانات - Data Deletion](delete-account.html)**
+👉 **[سلامة الأطفال - Child Safety](child-safety-standards.html)**
 
 🌐 **رابط الموقع على الويب - Web Link**: [https://salehbagomri.github.io/quickchat-privacy/](https://salehbagomri.github.io/quickchat-privacy/)
 
